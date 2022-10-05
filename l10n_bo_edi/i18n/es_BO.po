@@ -1,0 +1,2703 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_bo_edi
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-22 12:59+0000\n"
+"PO-Revision-Date: 2022-08-22 12:59+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.graphic_representation_template
+msgid ""
+"\"ESTA FACTURA CONTRIBUYE AL DESARROLLO DE NUESTRO PAIS, \n"
+"                                            EL USO ILÍCITO DE ÉSTA SERÁ SANCIONADO DE ACUERDO A LEY\""
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.report_invoice_document
+msgid "&amp;nbsp;"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.graphic_representation_template
+msgid "(Con Derecho a Credito Fiscal)"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.report_invoice_document
+msgid "(Con Derecho a Crédito Fiscal)"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,help:l10n_bo_edi.field_account_bank_statement_line__l10n_bo_cufd
+#: model:ir.model.fields,help:l10n_bo_edi.field_account_move__l10n_bo_cufd
+#: model:ir.model.fields,help:l10n_bo_edi.field_account_payment__l10n_bo_cufd
+msgid ""
+"(Código Unico de Facturación Diaria) Code provided by SIN, generated daily, "
+"identifies the invoice along with a number"
+msgstr ""
+"(Código Unico de Facturación Diaria) Código proporcionado por el SIN, generado diariamente, "
+"identifica la factura junto con un número"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,help:l10n_bo_edi.field_account_bank_statement_line__l10n_bo_cuf
+#: model:ir.model.fields,help:l10n_bo_edi.field_account_move__l10n_bo_cuf
+#: model:ir.model.fields,help:l10n_bo_edi.field_account_payment__l10n_bo_cuf
+msgid "(Código Unico de Facturación) Code referred to Point of Attention"
+msgstr "(Código Unico de Facturación) Código referido al Punto de Venta"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.graphic_representation_template
+msgid "76543234"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.graphic_representation_template
+msgid "<b>Fecha:</b>"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.graphic_representation_template
+msgid "<b>NIT/KARDEX:</b>"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.graphic_representation_template
+msgid "<b>Nombre/Razón Social:</b>"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.graphic_representation_template
+msgid "<b>Total bs: </b>"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.graphic_representation_template
+msgid ""
+"<br/>\n"
+"                                        <b>Importe Base para Credito Fiscal: </b>"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.res_config_settings_view_bo_form
+msgid ""
+"<span class=\"o_form_label\">Accounting Reports</span>\n"
+"                                <span class=\"fa fa-file-text-o\" title=\"Values set here are company-specific.\" aria-label=\"Values set here are company-specific.\" groups=\"base.group_multi_company\" role=\"img\"/>"
+msgstr ""
+"<span class=\"o_form_label\">Reportes Contable</span>\n"
+"                                <span class=\"fa fa-file-text-o\" title=\"Values set here are company-specific.\" aria-label=\"Values set here are company-specific.\" groups=\"base.group_multi_company\" role=\"img\"/>"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.res_config_settings_view_bo_form
+msgid "<span class=\"o_form_label\">Ambience</span>"
+msgstr "<span class=\"o_form_label\">Ambiente</span>"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.invoice_dosage_view_form
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.view_invoice_incident_form
+msgid ""
+"<span class=\"o_form_label\">Dosage\n"
+"                        </span>"
+msgstr ""
+"<span class=\"o_form_label\">Dosificación\n"
+"                        </span>"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.res_config_settings_view_bo_form
+msgid "<span class=\"o_form_label\">Invoicing Modality</span>"
+msgstr "<span class=\"o_form_label\">Modalidad de Facturación</span>"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.res_config_settings_view_bo_form
+msgid ""
+"<span class=\"o_form_label\">Invoicing Type</span>\n"
+"                                <span class=\"fa fa-lg fa-money\" title=\"Values set here are company-specific.\" aria-label=\"Values set here are company-specific.\" groups=\"base.group_multi_company\" role=\"img\"/>"
+msgstr ""
+"<span class=\"o_form_label\">Tipo Facturación</span>\n"
+"                                <span class=\"fa fa-lg fa-money\" title=\"Values set here are company-specific.\" aria-label=\"Values set here are company-specific.\" groups=\"base.group_multi_company\" role=\"img\"/>"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.res_config_settings_view_bo_form
+msgid "<span class=\"o_form_label\">Package Number</span>"
+msgstr "<span class=\"o_form_label\">Numero de Paquetes</span>"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.res_config_settings_view_bo_form
+msgid "<span class=\"o_form_label\">SIN Codes</span>"
+msgstr "<span class=\"o_form_label\">Códigos SIN</span>"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.res_config_settings_view_bo_form
+msgid "<span class=\"o_form_label\">Sector Type</span>"
+msgstr "<span class=\"o_form_label\">Tipo de Sector</span>"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.res_config_settings_view_bo_form
+msgid "<span class=\"o_form_label\">Selling Point</span>"
+msgstr "<span class=\"o_form_label\">Punto de Venta</span>"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.res_config_settings_view_bo_form
+msgid ""
+"<span class=\"o_form_label\">Signature Certificates</span>\n"
+"                                <span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-specific.\" aria-label=\"Values set here are company-specific.\" groups=\"base.group_multi_company\" role=\"img\"/>"
+msgstr ""
+"<span class=\"o_form_label\">Firma Digital</span>\n"
+"                                <span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-specific.\" aria-label=\"Values set here are company-specific.\" groups=\"base.group_multi_company\" role=\"img\"/>"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.report_invoice_document
+msgid ""
+"<strong style=\"font-size:14px; font-weight: bold;\">ESTA FACTURA CONTRIBUYE AL\n"
+"                                        DESARROLLO\n"
+"                                        DEL PAÍS, EL USO ILÍCITO SERÁ SANCIONADO PENALMENTE DE ACUERDO A LEY\n"
+"                                    </strong>\n"
+"                                    <br/>"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.report_invoice_document
+msgid "<strong>CASA MATRIZ</strong>"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.report_invoice_document
+msgid "<strong>COD. AUTORIZACIÓN:</strong>"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.report_invoice_document
+msgid "<strong>Cod. Cliente:</strong>"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.report_invoice_document
+msgid "<strong>FACTURA N°:</strong>"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.report_invoice_document
+msgid "<strong>FACTURA</strong>"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.report_invoice_document
+msgid "<strong>Fecha:</strong>"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.report_invoice_document
+msgid "<strong>Importe base para Crédito Fiscal, Ley° 317 Bs.:</strong>"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.report_invoice_document
+msgid "<strong>NIT/CI/CEX:</strong>"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.report_invoice_document
+msgid "<strong>NIT:</strong>"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.report_invoice_document
+msgid "<strong>Nombre/Razon Social:</strong>"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.report_invoice_document
+msgid "<strong>Son:</strong>"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.graphic_representation_template
+msgid "ACTIVIDAD:"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields.selection,name:l10n_bo_edi.selection__account_move__state_sin__a
+msgid "ANULADA"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model,name:l10n_bo_edi.model_account_move_reversal
+msgid "Account Move Reversal"
+msgstr "Revocación de movimiento en cuenta"
+
+#. module: l10n_bo_edi
+#: model:ir.model,name:l10n_bo_edi.model_account_move
+msgid "Account move inherit"
+msgstr "Herencia Asiento Contable"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_res_company__module_l10n_bo_reports
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_res_config_settings__module_l10n_bo_reports
+msgid "Accounting Reports"
+msgstr "Reportes Contables"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.res_config_settings_view_bo_form
+msgid "Accounting Reports:"
+msgstr "Reportes Contables:"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_ambience_siat__active
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_bo_edi_params__active
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_boedi_date_time__active
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_branch_office__active
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cafc_log__active
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cancellation_reasons__active
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cancelled_invoices__active
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cufd_log__active
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_currency_siat__active
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_document_status__active
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_id_type__active
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_dosage__active
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_type_siat__active
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_l10n_bo_company_activities__active
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_measure_unit__active
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_modalities_siat__active
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_payment_method__active
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_sale_point_type__active
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_sector_types__active
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_selling_point__active
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_sin_items__active
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_type_emission__active
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_type_rooms__active
+msgid "Active"
+msgstr "Activo"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_res_company__l10n_bo_company_activity_ids
+msgid "Activities Names"
+msgstr "Nombres de Actividades"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_activity_doc_sector__activity_code
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_caption__activity_code
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_l10n_bo_company_activities__code
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_sin_items__activity_code
+msgid "Activity Code"
+msgstr "Código de Actividad"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.sin_sync_view_form
+msgid "Activity sector document"
+msgstr "Documento Sector Actividad"
+
+#. module: l10n_bo_edi
+#: model:ir.actions.act_window,name:l10n_bo_edi.act_activity_doc_sector
+msgid "Actyivity Sector SIAT"
+msgstr "Sector Actividad SIAT"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_branch_office__address
+msgid "Address"
+msgstr "Dirección"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,help:l10n_bo_edi.field_measure_unit__active
+msgid "Allows you to hide the Measure Unit without removing it."
+msgstr "Le permite ocultar la Unidad de medida sin eliminarla."
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,help:l10n_bo_edi.field_sin_items__active
+msgid "Allows you to hide the Sin Items without removing it."
+msgstr "Le permite ocultar los artículos del listado sin quitarlo"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,help:l10n_bo_edi.field_l10n_bo_company_activities__active
+msgid "Allows you to hide the activity without removing it."
+msgstr "Le permite ocultar la actividad sin eliminarla."
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,help:l10n_bo_edi.field_ambience_siat__active
+msgid "Allows you to hide the ambiance without removing it."
+msgstr "Le permite ocultar el ambiente sin eliminarlo."
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,help:l10n_bo_edi.field_branch_office__active
+msgid "Allows you to hide the branch office without removing it."
+msgstr "Le permite ocultar la sucursal sin eliminarla."
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,help:l10n_bo_edi.field_cancellation_reasons__active
+msgid "Allows you to hide the cancellation reasons without removing it."
+msgstr "Le permite ocultar los motivos de cancelación sin eliminarlo."
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,help:l10n_bo_edi.field_cancelled_invoices__active
+msgid "Allows you to hide the cancelled invoice without removing it."
+msgstr "Le permite ocultar la factura cancelada sin eliminarla."
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,help:l10n_bo_edi.field_cafc_log__active
+#: model:ir.model.fields,help:l10n_bo_edi.field_cufd_log__active
+msgid "Allows you to hide the cufd without removing it."
+msgstr "Le permite ocultar el CUFD sin quitarlo."
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,help:l10n_bo_edi.field_boedi_date_time__active
+msgid "Allows you to hide the date_time without removing it."
+msgstr "Le permite ocultar la fecha_hora sin eliminarla."
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,help:l10n_bo_edi.field_currency_siat__active
+#: model:ir.model.fields,help:l10n_bo_edi.field_document_status__active
+#: model:ir.model.fields,help:l10n_bo_edi.field_invoice_type_siat__active
+#: model:ir.model.fields,help:l10n_bo_edi.field_payment_method__active
+#: model:ir.model.fields,help:l10n_bo_edi.field_sale_point_type__active
+#: model:ir.model.fields,help:l10n_bo_edi.field_type_emission__active
+#: model:ir.model.fields,help:l10n_bo_edi.field_type_rooms__active
+msgid "Allows you to hide the document status without removing it."
+msgstr "Le permite ocultar el estado del documento sin eliminarlo."
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,help:l10n_bo_edi.field_id_type__active
+msgid "Allows you to hide the id type without removing it."
+msgstr "Le permite ocultar el tipo de identificación sin eliminarlo."
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,help:l10n_bo_edi.field_modalities_siat__active
+msgid "Allows you to hide the modality without removing it."
+msgstr "Te permite ocultar la modalidad sin quitarla."
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,help:l10n_bo_edi.field_bo_edi_params__active
+msgid "Allows you to hide the param without removing it."
+msgstr "Le permite ocultar el parámetro sin eliminarlo."
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,help:l10n_bo_edi.field_sector_types__active
+msgid "Allows you to hide the sector type without removing it."
+msgstr "Le permite ocultar el tipo de sector sin eliminarlo."
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,help:l10n_bo_edi.field_selling_point__active
+msgid "Allows you to hide the selling point without removing it."
+msgstr "Le permite ocultar el punto de venta sin eliminarlo."
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,help:l10n_bo_edi.field_account_bank_statement_line__l10n_bo_invoice_number
+#: model:ir.model.fields,help:l10n_bo_edi.field_account_move__l10n_bo_invoice_number
+#: model:ir.model.fields,help:l10n_bo_edi.field_account_payment__l10n_bo_invoice_number
+msgid "Along with CUFD Code, helps in identifying the invoice"
+msgstr "Junto con el código CUFD, ayuda a identificar la factura"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_ambience_siat__id_ambience
+msgid "Ambiance Code"
+msgstr "Código de ambiente"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_ambience_siat__name
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_res_company__l10n_bo_ambience
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_res_config_settings__l10n_bo_ambience
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.res_config_settings_view_bo_form
+msgid "Ambience"
+msgstr "Ambiente"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__auth_number
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__auth_number
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_payment__auth_number
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_dosage__auth_number
+msgid "Authorization Number"
+msgstr "Número de autorización"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.account_move_bo_edi_form
+msgid "BO Dosage Set"
+msgstr "Conjunto de Dosificación"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.account_move_bo_edi_form
+msgid "BO EDI Information"
+msgstr "Información EDI BO"
+
+#. module: l10n_bo_edi
+#: model:ir.model,name:l10n_bo_edi.model_invoice_event
+msgid "BO EDI Invoice Events"
+msgstr "Eventos Facturación EDI BO"
+
+#. module: l10n_bo_edi
+#: model:ir.model,name:l10n_bo_edi.model_invoice_incident
+msgid "BO EDI Invoice Incident"
+msgstr "Incidentes de Factura EDI BO"
+
+#. module: l10n_bo_edi
+#: model:ir.model,name:l10n_bo_edi.model_messages_service
+msgid "BO EDI Messages Service"
+msgstr "Servicio de Mensajes EDI BO"
+
+#. module: l10n_bo_edi
+#: model:ir.model,name:l10n_bo_edi.model_document_sec_type
+#: model:ir.model,name:l10n_bo_edi.model_native_country
+msgid "BO EDI Native Country"
+msgstr "Pais de Origen EDI BO"
+
+#. module: l10n_bo_edi
+#: model:ir.model,name:l10n_bo_edi.model_null_reason
+msgid "BO EDI Null Reason"
+msgstr "Razon Anulación EDI BO"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.product_template_bo_edi_form
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.res_partner_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.res_users_bo_edi_form
+msgid "BO EDI Settings"
+msgstr "Configuraciones EDI BO"
+
+#. module: l10n_bo_edi
+#: model:ir.model,name:l10n_bo_edi.model_bo_edi_params
+msgid "BO EDI TEST Params"
+msgstr "Testeo Parametros EDI BO"
+
+#. module: l10n_bo_edi
+#: model:ir.model,name:l10n_bo_edi.model_invoice_caption
+msgid "BO EDI invoice captions"
+msgstr "Subtitulos factura EDI BO"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.account_move_bo_edi_form
+msgid "BO Information"
+msgstr "Información BO"
+
+#. module: l10n_bo_edi
+#: model:ir.model,name:l10n_bo_edi.model_invoice_dosage
+msgid "BO SIN invoice dosage"
+msgstr "Dosificación Factura"
+
+#. module: l10n_bo_edi
+#: model:ir.model,name:l10n_bo_edi.model_res_bank
+msgid "Bank"
+msgstr "Banco"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cafc_log__begin_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cufd_log__begin_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_incident__begin_date
+msgid "Begin Date"
+msgstr "Fecha de Inicio"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.res_config_settings_view_bo_form
+msgid "Bolivian Localization"
+msgstr "Locación Bolivia"
+
+#. module: l10n_bo_edi
+#: model:ir.ui.menu,name:l10n_bo_edi.menu_sin_bolivia
+msgid "Bolivian SIN"
+msgstr "Bolivia SIN"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__l10n_bo_branch_office
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__l10n_bo_branch_office
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_payment__l10n_bo_branch_office
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_res_users__l10n_bo_branch_office_id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_selling_point__branch_office_id
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.account_move_bo_edi_form
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.branch_office_view_list
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.res_users_bo_edi_form
+msgid "Branch Office"
+msgstr "Sucursal"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_branch_office__id_branch_office
+msgid "Branch Office Code"
+msgstr "Código Sucursal"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.branch_office_view_form
+msgid "Branch Office Form"
+msgstr "Formulario Sucursal"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_branch_office__name
+msgid "Branch office"
+msgstr "Sucursal"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__cafc_log_id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__cafc_log_id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_payment__cafc_log_id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_dosage__cafc_log_id
+msgid "CAFC current"
+msgstr "CAFC actual"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.report_invoice_document
+msgid "CANTIDAD"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.report_invoice_document
+msgid "CODIGO PRODUCTO/SERVICIO"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__l10n_bo_cuf
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__l10n_bo_cuf
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_payment__l10n_bo_cuf
+msgid "CUF Code"
+msgstr "Codigo CUF"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.graphic_representation_template
+msgid "CUF:"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cufd_log__cufd
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.cufd_log_view_list
+msgid "CUFD"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__l10n_bo_cufd
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__l10n_bo_cufd
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_payment__l10n_bo_cufd
+msgid "CUFD Code"
+msgstr "Código CUFD"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__efact_control_code
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__efact_control_code
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_payment__efact_control_code
+msgid "CUFD Control Code"
+msgstr "Código de Control CUFD"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.cufd_log_view_form
+msgid "CUFD Form"
+msgstr "Formulario CUFD"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_dosage__cufd_log_id
+msgid "CUFD current"
+msgstr "CUFD Actual"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_incident__cufd_log_id
+msgid "CUFD related"
+msgstr "CUFD Relacionado"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cafc_log__name
+msgid "Cafc Code"
+msgstr "Codigo CAFC"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__l10n_bo_cancellation_reason
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__l10n_bo_cancellation_reason
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_payment__l10n_bo_cancellation_reason
+msgid "Cancellation Reason"
+msgstr "Mótivo de Cancelación"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.graphic_representation_template
+msgid "Cantidad"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_caption__description
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_caption__name
+msgid "Caption"
+msgstr "Leyenda"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__l10n_bo_card
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__l10n_bo_card
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_payment__l10n_bo_card
+msgid "Card number"
+msgstr "Número de Tarjeta"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_l10n_bo_certificate__content
+msgid "Certificate"
+msgstr "Certificado"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_l10n_bo_certificate__signature_crt_file
+msgid "Certificate Crt"
+msgstr "CRT Certificado"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.certificate_form_view
+msgid "Certificate Form"
+msgstr "Formulario de Certificado"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_l10n_bo_certificate__signature_key_file
+msgid "Certificate Key"
+msgstr "Llave Certificado"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_l10n_bo_certificate__user_id
+msgid "Certificate Owner"
+msgstr "Propietario de certificado"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.certificate_tree_view
+msgid "Certificate Tree"
+msgstr "Arbol de Certificado"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,help:l10n_bo_edi.field_l10n_bo_certificate__signature_crt_file
+msgid "Certificate crt"
+msgstr "CRT Certificado"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,help:l10n_bo_edi.field_l10n_bo_certificate__signature_key_file
+msgid "Certificate key"
+msgstr "LLave Certificado"
+
+#. module: l10n_bo_edi
+#: model:ir.actions.act_window,name:l10n_bo_edi.certificate_list_action
+msgid "Certificates"
+msgstr "Certificados"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_res_company__l10n_bo_certificate_ids
+msgid "Certificates (BO)"
+msgstr "Certificados"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.res_config_settings_view_bo_form
+msgid "Change the current invoicing modality type"
+msgstr "Cambiar el tipo de modalidad de facturación actual"
+
+#. module: l10n_bo_edi
+#: model:ir.model,name:l10n_bo_edi.model_id_type
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_id_type__name
+msgid "Client ID type"
+msgstr "Identificación Cliente"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cancellation_reasons__code
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_currency_siat__code
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_document_status__code
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_dosage__code
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_event__code
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_type_siat__code
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_messages_service__code
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_native_country__code
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_null_reason__code
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_payment_method__code
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_sale_point_type__code
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_type_emission__code
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_type_rooms__code
+msgid "Code"
+msgstr "Código"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_document_sec_type__code
+msgid "Code Sector Invoice"
+msgstr "Codigo de Sector Factura"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_document_sec_type__code_type
+msgid "Code Type Document"
+msgstr "Código tipo de documento"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,help:l10n_bo_edi.field_res_company__l10n_bo_system_code
+#: model:ir.model.fields,help:l10n_bo_edi.field_res_config_settings__l10n_bo_system_code
+msgid "Code given by SIN in order to emit invoices"
+msgstr "Clave dada por el SIN para emitir facturas"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.res_config_settings_view_bo_form
+msgid "Codes provided by SIN"
+msgstr "Códigos proporcionados por el SIN"
+
+#. module: l10n_bo_edi
+#: model:ir.model,name:l10n_bo_edi.model_res_company
+msgid "Companies"
+msgstr "Compañías"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_branch_office__company_id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_dosage__company_id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_incident__company_id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_l10n_bo_certificate__company_id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_selling_point__company_id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_sin_sync__company_id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_validate_siat__company_id
+msgid "Company"
+msgstr "Compañia"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_l10n_bo_company_activities__name
+msgid "Complete Name"
+msgstr "Nombre completo"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields.selection,name:l10n_bo_edi.selection__account_move__tipo_com__4
+msgid "Compras para exportaciones"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields.selection,name:l10n_bo_edi.selection__account_move__tipo_com__2
+msgid "Compras para mercado interno con destino a actividades no gravadas"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields.selection,name:l10n_bo_edi.selection__account_move__tipo_com__1
+msgid "Compras para mercado interno con destino y actividades gravadas"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields.selection,name:l10n_bo_edi.selection__account_move__tipo_com__3
+msgid "Compras sujetas a proporcionalidad"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields.selection,name:l10n_bo_edi.selection__account_move__tipo_com__5
+msgid "Compras tanto para el mercado interno como para exportaciones"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model,name:l10n_bo_edi.model_res_config_settings
+msgid "Config Settings"
+msgstr "Opciones de configuración"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.res_config_settings_view_bo_form
+msgid "Configure Signature Certificates"
+msgstr "Configurar Firma Digital"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.res_config_settings_view_bo_form
+msgid "Configure your signature certificates to sign"
+msgstr "Configura tu firma digital para firmar"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__control_code
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__control_code
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_payment__control_code
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cufd_log__control_code
+msgid "Control Code"
+msgstr "Código de Control"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,help:l10n_bo_edi.field_account_bank_statement_line__efact_control_code
+#: model:ir.model.fields,help:l10n_bo_edi.field_account_move__efact_control_code
+#: model:ir.model.fields,help:l10n_bo_edi.field_account_payment__efact_control_code
+msgid "Control Code, given along CUFD"
+msgstr "Código de control, proporcionado junto con CUFD"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.certificate_form_view
+msgid "Create Pem Files"
+msgstr "Crear Ficheros .pem"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.actions.act_window,help:l10n_bo_edi.certificate_list_action
+msgid "Create the first certificate"
+msgstr "Crear primer certificado"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_activity_doc_sector__create_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_ambience_siat__create_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_bo_edi_params__create_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_boedi_date_time__create_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_branch_office__create_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cafc_log__create_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cancellation_reasons__create_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cancelled_invoices__create_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cufd_log__create_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_currency_siat__create_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_document_sec_type__create_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_document_status__create_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_id_type__create_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_caption__create_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_dosage__create_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_event__create_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_incident__create_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_type_siat__create_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_l10n_bo_certificate__create_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_l10n_bo_company_activities__create_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_measure_unit__create_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_messages_service__create_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_modalities_siat__create_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_native_country__create_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_null_reason__create_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_payment_method__create_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_sale_point_type__create_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_sector_types__create_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_selling_point__create_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_sin_items__create_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_sin_sync__create_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_standard_billing__create_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_type_emission__create_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_type_rooms__create_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_validate_siat__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_activity_doc_sector__create_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_ambience_siat__create_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_bo_edi_params__create_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_boedi_date_time__create_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_branch_office__create_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cafc_log__create_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cancellation_reasons__create_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cancelled_invoices__create_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cufd_log__create_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_currency_siat__create_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_document_sec_type__create_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_document_status__create_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_id_type__create_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_caption__create_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_dosage__create_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_event__create_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_incident__create_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_type_siat__create_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_l10n_bo_certificate__create_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_l10n_bo_company_activities__create_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_measure_unit__create_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_messages_service__create_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_modalities_siat__create_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_native_country__create_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_null_reason__create_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_payment_method__create_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_sale_point_type__create_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_sector_types__create_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_selling_point__create_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_sin_items__create_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_sin_sync__create_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_standard_billing__create_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_type_emission__create_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_type_rooms__create_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_validate_siat__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cufd_log__id_cufd
+msgid "Cufd ID"
+msgstr "ID CUFD"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cufd_log__name
+msgid "Cufd Log"
+msgstr "Registro de CUFD"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_selling_point__cufd_ids
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.selling_point_view_form
+msgid "Cufd Related Codes"
+msgstr "Código CUFD relacionados"
+
+#. module: l10n_bo_edi
+#: model:ir.actions.act_window,name:l10n_bo_edi.act_currency_siat
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_currency_siat__name
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.sin_sync_view_form
+msgid "Currency"
+msgstr "Moneda"
+
+#. module: l10n_bo_edi
+#: model:ir.model,name:l10n_bo_edi.model_currency_siat
+msgid "Currency SIAT"
+msgstr "Moneda SIAT"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_ambience_siat__current_ambience
+msgid "Current Ambience"
+msgstr "Ambiente Actual"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_modalities_siat__current_invoicing_modality
+msgid "Current Invoicing Modality"
+msgstr "Modalidad Actual de Facturación"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_sector_types__current_sector_type
+msgid "Current Sector Type"
+msgstr "Tipo de Sector Actual"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__qr_image
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__qr_image
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_payment__qr_image
+msgid "Código QR"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.report_invoice_document
+msgid "DESCRIPCIÓN"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.report_invoice_document
+msgid "DESCUENTO"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.report_invoice_document
+msgid "DESCUENTO Bs.:"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_res_company__l10n_bo_dfe_service_provider
+msgid "DFE Service Provider"
+msgstr "Proveedor de Servicio DFE"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__dui
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__dui
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_payment__dui
+msgid "DUI"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_boedi_date_time__date_time
+msgid "Date and Time"
+msgstr "Fecha y Hora"
+
+#. module: l10n_bo_edi
+#: model:ir.model,name:l10n_bo_edi.model_boedi_date_time
+msgid "Date and time data sync with SIN"
+msgstr "Sincronización de datos de fecha y hora con SIN"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__l10n_bo_time_sync
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__l10n_bo_time_sync
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_payment__l10n_bo_time_sync
+msgid "Date sync SIAT"
+msgstr "Sincronización de fecha SIAT"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__l10n_bo_time_sync_cuf
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__l10n_bo_time_sync_cuf
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_payment__l10n_bo_time_sync_cuf
+msgid "Date sync SIAT to CUF"
+msgstr "Sincronización de Fecha SIAT para CUF"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_boedi_date_time__name
+msgid "Date sync SIN"
+msgstr "Sincronización de fecha SIN"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__l10n_bo_time
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__l10n_bo_time
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_payment__l10n_bo_time
+msgid "Date time print"
+msgstr "Impresión de fecha y hora"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.sin_sync_view_form
+msgid "Date time sync"
+msgstr "Sincronización de fecha y hora"
+
+#. module: l10n_bo_edi
+#: model:ir.actions.act_window,name:l10n_bo_edi.act_boedi_date_time
+msgid "DateTime SIAT Sync"
+msgstr "Sincronización SIAT de fecha y hora"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.graphic_representation_template
+msgid "Descripcion"
+msgstr "Descripción"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_ambience_siat__description
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_branch_office__description
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_id_type__description
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_incident__description
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_measure_unit__description
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_modalities_siat__description
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_sector_types__description
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_selling_point__description
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_sin_items__description
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.branch_office_view_form
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.selling_point_view_form
+msgid "Description"
+msgstr "Descripción"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__amount_des
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__amount_des
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_payment__amount_des
+msgid "Descuento"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.graphic_representation_template
+msgid "Descuentos"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model,name:l10n_bo_edi.model_l10n_bo_certificate
+msgid "Digital Signature"
+msgstr "Firma Digital"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_activity_doc_sector__display_name
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_ambience_siat__display_name
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_bo_edi_params__display_name
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_boedi_date_time__display_name
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_branch_office__display_name
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cafc_log__display_name
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cancellation_reasons__display_name
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cancelled_invoices__display_name
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cufd_log__display_name
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_currency_siat__display_name
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_document_sec_type__display_name
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_document_status__display_name
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_id_type__display_name
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_caption__display_name
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_dosage__display_name
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_event__display_name
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_incident__display_name
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_type_siat__display_name
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_l10n_bo_certificate__display_name
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_l10n_bo_company_activities__display_name
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_measure_unit__display_name
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_messages_service__display_name
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_modalities_siat__display_name
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_native_country__display_name
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_null_reason__display_name
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_payment_method__display_name
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_sale_point_type__display_name
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_sector_types__display_name
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_selling_point__display_name
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_sin_items__display_name
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_sin_sync__display_name
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_standard_billing__display_name
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_type_emission__display_name
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_type_rooms__display_name
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_validate_siat__display_name
+msgid "Display Name"
+msgstr "Nombre para mostrar"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__l10n_bo_document_status
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__l10n_bo_document_status
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_payment__l10n_bo_document_status
+msgid "Document Status"
+msgstr "Estado del documento"
+
+#. module: l10n_bo_edi
+#: model:ir.actions.act_window,name:l10n_bo_edi.act_document_sec_type
+#: model:ir.actions.act_window,name:l10n_bo_edi.act_invoice_caption
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__l10n_bo_type_doc
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__l10n_bo_type_doc
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_payment__l10n_bo_type_doc
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_dosage__sector_siat_id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_incident__sector_siat_id
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.sin_sync_view_form
+msgid "Document Type"
+msgstr "Tipo de documento"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_document_status__name
+msgid "Document state"
+msgstr "Estado de documento"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_document_sec_type__name
+msgid "Document type"
+msgstr "Tipo de documento"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields.selection,name:l10n_bo_edi.selection__account_move__l10n_bo_type_doc__3
+msgid "Documento de Ajuste"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields.selection,name:l10n_bo_edi.selection__invoice_incident__state__done
+msgid "Done"
+msgstr "Realizado"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_sin_sync__dosage_id
+msgid "Dosage"
+msgstr "Dosificación"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_dosage__end_date
+msgid "Dosage Deadline"
+msgstr "Plazo de dosificación"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_dosage__key
+msgid "Dosage Key"
+msgstr "Llave de dosificación"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_validate_siat__dosage_one
+msgid "Dosage One"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_validate_siat__dosage_two
+msgid "Dosage Two"
+msgstr "Segunda dosificación"
+
+#. module: l10n_bo_edi
+#: model:ir.actions.act_window,name:l10n_bo_edi.act_invoice_dosage
+#: model:ir.ui.menu,name:l10n_bo_edi.menu_invoice_dosage
+msgid "Dosage invoice"
+msgstr "Dosificación de Factura"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.account_move_bo_edi_form
+msgid "Dosages"
+msgstr "Dosificaciones"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields.selection,name:l10n_bo_edi.selection__invoice_incident__state__draft
+msgid "Draft"
+msgstr "Borrador"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields.selection,name:l10n_bo_edi.selection__account_move__state_sin__c
+msgid "EMITIDA EN CONTINGENCIA"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields.selection,name:l10n_bo_edi.selection__account_move__state_sin__e
+msgid "EXTRAVIADA"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.res_config_settings_view_bo_form
+msgid "Electronic Billing:"
+msgstr "Facturación Electronica"
+
+#. module: l10n_bo_edi
+#: model:ir.model,name:l10n_bo_edi.model_mail_template
+msgid "Email Templates"
+msgstr "Plantillas de correo electrónico"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__l10n_bo_emission_type
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__l10n_bo_emission_type
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_payment__l10n_bo_emission_type
+msgid "Emision Type"
+msgstr "Tipo de Emisión"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cafc_log__end_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cufd_log__end_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_incident__end_date
+msgid "End Date"
+msgstr "Fecha Final"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields.selection,name:l10n_bo_edi.selection__invoice_incident__state__error
+msgid "Error"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: code:addons/l10n_bo_edi/models/account_move.py:0
+#, python-format
+msgid ""
+"Error Factura:\n"
+"Defina motivo de anulación"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: code:addons/l10n_bo_edi/models/account_move.py:0
+#, python-format
+msgid ""
+"Error Factura:\n"
+"Defina método de pago para la factura"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: code:addons/l10n_bo_edi/models/account_move.py:0
+#, python-format
+msgid ""
+"Error Factura:\n"
+"Defina número de tarjeta"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: code:addons/l10n_bo_edi/models/account_move.py:0
+#, python-format
+msgid ""
+"Error Factura:\n"
+"Defina sector en la dosificacion"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: code:addons/l10n_bo_edi/models/account_move.py:0
+#, python-format
+msgid "Error Impuestos Nacionales: %(message)s"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: code:addons/l10n_bo_edi/models/account_move.py:0
+#: code:addons/l10n_bo_edi/models/account_move.py:0
+#: code:addons/l10n_bo_edi/models/account_move.py:0
+#: code:addons/l10n_bo_edi/models/account_move.py:0
+#: code:addons/l10n_bo_edi/models/account_move.py:0
+#: code:addons/l10n_bo_edi/models/account_move.py:0
+#: code:addons/l10n_bo_edi/models/sin_sync.py:0
+#: code:addons/l10n_bo_edi/models/sin_sync.py:0
+#: code:addons/l10n_bo_edi/models/validate_siat.py:0
+#: code:addons/l10n_bo_edi/models/validate_siat.py:0
+#: code:addons/l10n_bo_edi/models/validate_siat.py:0
+#: code:addons/l10n_bo_edi/models/validate_siat.py:0
+#, python-format
+msgid ""
+"Error SIAT:\n"
+"Codigo %s.- %s\n"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: code:addons/l10n_bo_edi/models/account_move.py:0
+#, python-format
+msgid "Error de conexión: %(message)s"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: code:addons/l10n_bo_edi/models/sin_sync.py:0
+#, python-format
+msgid ""
+"Error:\n"
+"Defina CUIS en la Dosificación actual\n"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: code:addons/l10n_bo_edi/models/sin_sync.py:0
+#: code:addons/l10n_bo_edi/models/sin_sync.py:0
+#, python-format
+msgid ""
+"Error:\n"
+"Defina NIT en la compañia actual\n"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: code:addons/l10n_bo_edi/models/sin_sync.py:0
+#: code:addons/l10n_bo_edi/models/sin_sync.py:0
+#, python-format
+msgid ""
+"Error:\n"
+"Defina ambiente en la configuracion de contabilidad \n"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__state_sin
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__state_sin
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_payment__state_sin
+#: model:ir.model.fields,help:l10n_bo_edi.field_account_bank_statement_line__state_sin
+#: model:ir.model.fields,help:l10n_bo_edi.field_account_move__state_sin
+#: model:ir.model.fields,help:l10n_bo_edi.field_account_payment__state_sin
+msgid "Estado SIN"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_incident__state
+msgid "Estate"
+msgstr "Estados"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.validate_siat_view_form
+msgid "Etapa I. Obtención CUIS"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.validate_siat_view_form
+msgid "Etapa II. Sincronización de catálogos"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.validate_siat_view_form
+msgid "Etapa III. Obtención de CUFD"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.validate_siat_view_form
+msgid "Etapa IV. Consumo de métodos de emisión individual"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.validate_siat_view_form
+msgid "Etapa IX. Consumo de métodos de emisión masiva"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.validate_siat_view_form
+msgid "Etapa V. Registro de eventos significativos"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.validate_siat_view_form
+msgid "Etapa VI. Consumo de métodos de emisión de paquetes"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.validate_siat_view_form
+msgid "Etapa VII. Anulación"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.validate_siat_view_form
+msgid "Etapa VIII.  Firma Digital"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__incident_id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__incident_id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_payment__incident_id
+msgid "Event ID"
+msgstr "ID Evento"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_l10n_bo_certificate__cert_expiration
+msgid "Expiration date"
+msgstr "Fecha de expiración"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.graphic_representation_template
+msgid "FACTURA"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.graphic_representation_template
+msgid "FACTURA N°"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields.selection,name:l10n_bo_edi.selection__account_move__l10n_bo_type_doc__1
+msgid "Factura con Derecho a Crédito Fiscal"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields.selection,name:l10n_bo_edi.selection__account_move__l10n_bo_type_doc__2
+msgid "Factura sin Derecho a Crédito Fiscal"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move_reversal__invoice_date_origin
+msgid "Fecha Factura Original"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,help:l10n_bo_edi.field_l10n_bo_certificate__content
+msgid "File P12"
+msgstr "Fichero .P12"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__l10n_bo_gzip
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__l10n_bo_gzip
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_payment__l10n_bo_gzip
+msgid "GZIP File"
+msgstr "Fichero GZIP"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.invoice_dosage_view_form
+msgid "Get CUFD"
+msgstr "Obtener CUFD"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.invoice_dosage_view_form
+msgid "Get CUIS"
+msgstr "Obtener CUIS"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_activity_doc_sector__id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_ambience_siat__id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_bo_edi_params__id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_boedi_date_time__id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_branch_office__id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cafc_log__id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cancellation_reasons__id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cancelled_invoices__id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cufd_log__id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_currency_siat__id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_document_sec_type__id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_document_status__id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_id_type__id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_caption__id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_dosage__id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_event__id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_incident__id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_type_siat__id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_l10n_bo_certificate__id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_l10n_bo_company_activities__id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_measure_unit__id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_messages_service__id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_modalities_siat__id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_native_country__id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_null_reason__id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_payment_method__id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_sale_point_type__id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_sector_types__id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_selling_point__id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_sin_items__id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_sin_sync__id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_standard_billing__id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_type_emission__id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_type_rooms__id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_validate_siat__id
+msgid "ID"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_sector_types__id_sector_type
+msgid "ID Sector Type"
+msgstr "ID Tipo de Sector"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__l10n_bo_id_type
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__l10n_bo_id_type
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_payment__l10n_bo_id_type
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_res_partner__l10n_bo_id_type
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_res_users__l10n_bo_id_type
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.res_partner_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.sin_sync_view_form
+msgid "ID Type"
+msgstr "ID Tipo"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_id_type__id_type_code
+msgid "ID Type Code"
+msgstr "ID Tipo de Código"
+
+#. module: l10n_bo_edi
+#: model:ir.actions.act_window,name:l10n_bo_edi.act_id_type
+msgid "ID type"
+msgstr "ID Tipo"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.report_invoice_document
+msgid "IMPORTE BASE CRÉDITO FISCAL Bs.:"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,help:l10n_bo_edi.field_l10n_bo_certificate__user_id
+msgid ""
+"If this certificate has an owner, he will be the only user authorized to use"
+" it, otherwise, the certificate will be shared with other users of the "
+"current company"
+msgstr ""
+"Si este certificado tiene un propietario, será el único usuario autorizado para usar"
+", de lo contrario, el certificado se compartirá con otros usuarios de la "
+"compañía actual"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__amount_imp
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__amount_imp
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_payment__amount_imp
+msgid "Importe Base para Impuesto"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__amount_exe
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__amount_exe
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_payment__amount_exe
+msgid "Importe Exento"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__amount_ice_iehd
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__amount_ice_iehd
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_payment__amount_ice_iehd
+msgid "Importe ICE/IEHD"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__amount_iva
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__amount_iva
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_payment__amount_iva
+msgid "Importe IVA"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,help:l10n_bo_edi.field_account_bank_statement_line__amount_imp
+#: model:ir.model.fields,help:l10n_bo_edi.field_account_move__amount_imp
+#: model:ir.model.fields,help:l10n_bo_edi.field_account_payment__amount_imp
+msgid "Importe base para crédito o débito fiscal"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,help:l10n_bo_edi.field_account_bank_statement_line__qr_image
+#: model:ir.model.fields,help:l10n_bo_edi.field_account_move__qr_image
+#: model:ir.model.fields,help:l10n_bo_edi.field_account_payment__qr_image
+msgid "Imágen QR de la Factura"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_incident__name
+msgid "Incident"
+msgstr "Incidente"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.res_config_settings_view_bo_form
+msgid "Install/Uninstall Bolivian accounting reports"
+msgstr "Instalar/Desinstalar informes contables bolivianos"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__inv_type
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__inv_type
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_payment__inv_type
+msgid "Invoice"
+msgstr "Factura"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_dosage__invoice_caption_id
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.sin_sync_view_form
+msgid "Invoice Caption"
+msgstr "Leyenda Factura"
+
+#. module: l10n_bo_edi
+#: model:ir.actions.act_window,name:l10n_bo_edi.invoice_dosage_action
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.invoice_dosage_view_list
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.res_config_settings_view_bo_form
+msgid "Invoice Dosage"
+msgstr "Dosificación Factura"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.account_move_bo_edi_form
+msgid "Invoice Dosage Data"
+msgstr "Datos de dosificación de la factura"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.invoice_dosage_view_form
+msgid "Invoice Dosage Form"
+msgstr "Formulario de dosificación de factura"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_selling_point__invoice_dosage_ids
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.selling_point_view_form
+msgid "Invoice Dosages"
+msgstr "Dosificaciones de la factura"
+
+#. module: l10n_bo_edi
+#: model:ir.actions.act_window,name:l10n_bo_edi.act_invoice_event
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_incident__invoice_event_id
+msgid "Invoice Event"
+msgstr "Evento de factura"
+
+#. module: l10n_bo_edi
+#: model:ir.actions.act_window,name:l10n_bo_edi.act_invoice_events
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_event__name
+#: model:ir.ui.menu,name:l10n_bo_edi.menu_action_act_invoice_events
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.sin_sync_view_form
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.view_invoice_incident_form
+msgid "Invoice Events"
+msgstr "Eventos de Factura"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__l10n_bo_invoice_number
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__l10n_bo_invoice_number
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_payment__l10n_bo_invoice_number
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cufd_log__invoice_number
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_dosage__invoice_number
+msgid "Invoice Number"
+msgstr "Número de Factura"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_dosage__invoice_number_dc
+msgid "Invoice Number Debit/Credit"
+msgstr "Número Nota de Debito/Credito"
+
+#. module: l10n_bo_edi
+#: model:ir.actions.act_window,name:l10n_bo_edi.act_invoice_type_siat
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.sin_sync_view_form
+msgid "Invoice Type"
+msgstr "Tipo de Factura"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cafc_log__dosage_ids
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cufd_log__dosage_ids
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_dosage__name
+msgid "Invoice dosage"
+msgstr "Dosificación de Factura"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.res_config_settings_view_bo_form
+msgid "Invoicing Modality"
+msgstr "Modalidad de Facturación"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_res_company__l10n_bo_invoicing_type
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_res_config_settings__l10n_bo_invoicing_type
+msgid "Invoicing Type"
+msgstr "Tipo de Facturación"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_sin_items__name
+msgid "Items SIN"
+msgstr "Productos SIN"
+
+#. module: l10n_bo_edi
+#: model:ir.model,name:l10n_bo_edi.model_sin_items
+msgid "Items provided by SIN"
+msgstr "Productos proporcionados por SIN"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__l10n_bo_gzip_filename
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__l10n_bo_gzip_filename
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_payment__l10n_bo_gzip_filename
+msgid "L10N Bo Gzip Filename"
+msgstr "L10N Bo Gzip Nombre"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__l10n_bo_xml_filename
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__l10n_bo_xml_filename
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_payment__l10n_bo_xml_filename
+msgid "L10N Bo Xml Filename"
+msgstr "L10N Bo Xml Nombre"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields.selection,name:l10n_bo_edi.selection__account_move__state_sin__l
+msgid "LIBRE CONSIGNACIÓN"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_activity_doc_sector____last_update
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_ambience_siat____last_update
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_bo_edi_params____last_update
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_boedi_date_time____last_update
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_branch_office____last_update
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cafc_log____last_update
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cancellation_reasons____last_update
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cancelled_invoices____last_update
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cufd_log____last_update
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_currency_siat____last_update
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_document_sec_type____last_update
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_document_status____last_update
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_id_type____last_update
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_caption____last_update
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_dosage____last_update
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_event____last_update
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_incident____last_update
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_type_siat____last_update
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_l10n_bo_certificate____last_update
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_l10n_bo_company_activities____last_update
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_measure_unit____last_update
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_messages_service____last_update
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_modalities_siat____last_update
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_native_country____last_update
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_null_reason____last_update
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_payment_method____last_update
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_sale_point_type____last_update
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_sector_types____last_update
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_selling_point____last_update
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_sin_items____last_update
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_sin_sync____last_update
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_standard_billing____last_update
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_type_emission____last_update
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_type_rooms____last_update
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_validate_siat____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_l10n_bo_certificate__last_token
+msgid "Last Token"
+msgstr "Último Token"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_activity_doc_sector__write_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_ambience_siat__write_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_bo_edi_params__write_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_boedi_date_time__write_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_branch_office__write_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cafc_log__write_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cancellation_reasons__write_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cancelled_invoices__write_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cufd_log__write_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_currency_siat__write_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_document_sec_type__write_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_document_status__write_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_id_type__write_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_caption__write_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_dosage__write_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_event__write_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_incident__write_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_type_siat__write_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_l10n_bo_certificate__write_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_l10n_bo_company_activities__write_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_measure_unit__write_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_messages_service__write_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_modalities_siat__write_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_native_country__write_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_null_reason__write_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_payment_method__write_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_sale_point_type__write_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_sector_types__write_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_selling_point__write_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_sin_items__write_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_sin_sync__write_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_standard_billing__write_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_type_emission__write_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_type_rooms__write_uid
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_validate_siat__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_activity_doc_sector__write_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_ambience_siat__write_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_bo_edi_params__write_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_boedi_date_time__write_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_branch_office__write_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cafc_log__write_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cancellation_reasons__write_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cancelled_invoices__write_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cufd_log__write_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_currency_siat__write_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_document_sec_type__write_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_document_status__write_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_id_type__write_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_caption__write_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_dosage__write_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_event__write_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_incident__write_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_type_siat__write_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_l10n_bo_certificate__write_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_l10n_bo_company_activities__write_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_measure_unit__write_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_messages_service__write_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_modalities_siat__write_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_native_country__write_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_null_reason__write_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_payment_method__write_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_sale_point_type__write_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_sector_types__write_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_selling_point__write_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_sin_items__write_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_sin_sync__write_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_standard_billing__write_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_type_emission__write_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_type_rooms__write_date
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_validate_siat__write_date
+msgid "Last Updated on"
+msgstr "Ultima actualización en"
+
+#. module: l10n_bo_edi
+#: model:ir.actions.act_window,name:l10n_bo_edi.act_cufd_log
+#: model:ir.ui.menu,name:l10n_bo_edi.menu_cufd_log
+msgid "Log CUFD"
+msgstr "Registro de CUFD"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_incident__cuis
+msgid "Log CUIS"
+msgstr "Registro CUIS"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.report_invoice_document
+msgid "Logo"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.report_invoice_document
+msgid "MONTO A PAGAR Bs.:"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.report_invoice_document
+msgid "MONTO GIFT CARD Bs.:"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.actions.act_window,name:l10n_bo_edi.branch_office_action
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.res_config_settings_view_bo_form
+msgid "Manage Branch Offices"
+msgstr "Administrar sucursales"
+
+#. module: l10n_bo_edi
+#: model:ir.actions.act_window,name:l10n_bo_edi.selling_point_action
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.res_config_settings_view_bo_form
+msgid "Manage Selling Points"
+msgstr "Administrar Puntos de Venta"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.res_config_settings_view_bo_form
+msgid "Manage information related to Dosage"
+msgstr "Administrar información relacionada con la dosificación"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields.selection,name:l10n_bo_edi.selection__account_move__l10n_bo_emission_type__3
+msgid "Massiva"
+msgstr "Masiva"
+
+#. module: l10n_bo_edi
+#: model:ir.actions.act_window,name:l10n_bo_edi.act_measure_unit
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.product_template_bo_edi_form
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.sin_sync_view_form
+msgid "Measure Unit"
+msgstr "Unida de Medida"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_measure_unit__measure_unit_code
+msgid "Measure Unit Code"
+msgstr "Código de unidad de medida"
+
+#. module: l10n_bo_edi
+#: model:ir.model,name:l10n_bo_edi.model_measure_unit
+msgid "Measure items provided by SIN"
+msgstr "Medir elementos proporcionados por SIN"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_measure_unit__name
+msgid "Measure unit sin"
+msgstr "Unidad de Medida SIN"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_event__description
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_messages_service__description
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_null_reason__description
+msgid "Message"
+msgstr "Mensaje"
+
+#. module: l10n_bo_edi
+#: model:ir.actions.act_window,name:l10n_bo_edi.act_messages_service
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_messages_service__name
+msgid "Message Service"
+msgstr "Servicios de Mensaje"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.sin_sync_view_form
+msgid "Messages Service"
+msgstr "Servicio de Mensajes"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_modalities_siat__name
+msgid "Modalities"
+msgstr "Modalidad"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_modalities_siat__id_modality
+msgid "Modality Code"
+msgstr "Código Modalidad"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_res_company__l10n_bo_invoicing_modality
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_res_config_settings__l10n_bo_invoicing_modality
+msgid "Modality Selection"
+msgstr "Selección de Modalidad"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__amount_text
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__amount_text
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_payment__amount_text
+msgid "Monto Literal"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__nit_ci
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__nit_ci
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_payment__nit_ci
+msgid "NIT/CI"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.graphic_representation_template
+msgid "NIT:"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields.selection,name:l10n_bo_edi.selection__account_move__state_sin__na
+msgid "NO APLICA"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields.selection,name:l10n_bo_edi.selection__account_move__state_sin__n
+msgid "NO UTILIZADA"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_bo_edi_params__name
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cancellation_reasons__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cancelled_invoices__name
+msgid "Name cencel"
+msgstr "Nombre Cancelación"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.validate_siat_view_form
+msgid "Name test"
+msgstr "Nombre de prueba"
+
+#. module: l10n_bo_edi
+#: model:ir.actions.act_window,name:l10n_bo_edi.act_native_country
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_native_country__name
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.sin_sync_view_form
+msgid "Native country"
+msgstr "País de Origen"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_activity_doc_sector__name
+msgid "Nombre Actividad"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__note_credit_debit
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__note_credit_debit
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_payment__note_credit_debit
+msgid "Nota de Credito Debito"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move_reversal__nota_credito_debito
+msgid "Nota de Crédito/Débito"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.actions.act_window,name:l10n_bo_edi.act_null_reason
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__l10n_bo_null_reason
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__l10n_bo_null_reason
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_payment__l10n_bo_null_reason
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.account_move_bo_edi_form
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.sin_sync_view_form
+msgid "Null Reason"
+msgstr "Razón Anulación"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_null_reason__name
+msgid "Null reason"
+msgstr "Razón Anulación"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields.selection,name:l10n_bo_edi.selection__account_move__l10n_bo_emission_type__2
+msgid "Offline"
+msgstr "Fuera de Linea"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields.selection,name:l10n_bo_edi.selection__account_move__l10n_bo_emission_type__1
+msgid "Online"
+msgstr "En Linea"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_l10n_bo_certificate__content_name
+msgid "P12 Name"
+msgstr "Nombre .P12"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.report_invoice_document
+msgid "PRECIO UNITARIO"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_res_company__l10n_bo_invoice_package_number
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_res_config_settings__l10n_bo_invoice_package_number
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.res_config_settings_view_bo_form
+msgid "Package Number"
+msgstr "Número de Paquetes"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_bo_edi_params__param_code
+msgid "Param Code"
+msgstr "Código Parametro"
+
+#. module: l10n_bo_edi
+#: model:ir.actions.act_window,name:l10n_bo_edi.act_bo_edi_params
+#: model:ir.ui.menu,name:l10n_bo_edi.menu_bo_edi_params
+msgid "Parametros SIAT"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model,name:l10n_bo_edi.model_res_partner
+msgid "Partner Inherit BO EDI"
+msgstr "Herencia de Socio EDI BO"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,help:l10n_bo_edi.field_l10n_bo_certificate__password
+msgid "Passphrase for P12"
+msgstr "Contraseña para P12"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_l10n_bo_certificate__password
+msgid "Password"
+msgstr "Contraseña"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.sin_sync_view_form
+msgid "Payment Method"
+msgstr "Metodo de Pago"
+
+#. module: l10n_bo_edi
+#: model:ir.actions.act_window,name:l10n_bo_edi.act_payment_method
+msgid "Payment Method SIAT"
+msgstr "Método de Pago SIAT"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__l10n_bo_payment_method
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__l10n_bo_payment_method
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_payment__l10n_bo_payment_method
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_type_siat__name
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_payment_method__name
+msgid "Payment method"
+msgstr "Metodo de Pago"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,help:l10n_bo_edi.field_res_company__l10n_bo_company_activity_ids
+msgid ""
+"Please select the SIN registered economic activities codes for the company"
+msgstr ""
+"Seleccione los códigos de actividades económicas registradas en el SIN para la empresa"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,help:l10n_bo_edi.field_res_company__l10n_bo_dfe_service_provider
+msgid "Please select your company service provider for DFE service."
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.graphic_representation_template
+msgid "Precio Unitario"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields.selection,name:l10n_bo_edi.selection__invoice_incident__state__process
+msgid "Process"
+msgstr "Proceso"
+
+#. module: l10n_bo_edi
+#: model:ir.model,name:l10n_bo_edi.model_product_template
+msgid "Product Template"
+msgstr "Plantilla de producto"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_sin_items__sin_code
+msgid "ProductService Code"
+msgstr "Código Producto Servicio"
+
+#. module: l10n_bo_edi
+#: model:ir.actions.act_window,name:l10n_bo_edi.act_selling_point
+#: model:ir.ui.menu,name:l10n_bo_edi.menu_selling_point
+msgid "Puntos de venta"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__qr_code
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__qr_code
+msgid "QR Code"
+msgstr "Código QR"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__razon_social
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__razon_social
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_payment__razon_social
+msgid "Razón Social"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__l10n_bo_code_receipt
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__l10n_bo_code_receipt
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_payment__l10n_bo_code_receipt
+msgid "Receipt Code SIAT Invoice"
+msgstr "Código recepción SIAT Factura"
+
+#. module: l10n_bo_edi
+#: model:ir.model,name:l10n_bo_edi.model_sin_sync
+msgid "Recurrent SIN Api calls"
+msgstr "Llamadas SIN Api recurrentes"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_id_type__res_partner_ids
+msgid "Related Clients"
+msgstr "Clientes Relacionados"
+
+#. module: l10n_bo_edi
+#: model:ir.model,name:l10n_bo_edi.model_activity_doc_sector
+msgid "Relation Model between Sectors and Activities"
+msgstr "Modelo Relacional entre Sectores y Actividades"
+
+#. module: l10n_bo_edi
+#: model:ir.actions.report,name:l10n_bo_edi.graphic_representation
+msgid "Representacion Grafica"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_incident__siat_code
+msgid "Return SIAT Code"
+msgstr "Retorno Código SIAT"
+
+#. module: l10n_bo_edi
+#: model:ir.model,name:l10n_bo_edi.model_invoice_type_siat
+#: model:ir.model,name:l10n_bo_edi.model_sale_point_type
+msgid "SIAT Invoice Type SIAT"
+msgstr "Tipo de Factura SIAT"
+
+#. module: l10n_bo_edi
+#: model:ir.model,name:l10n_bo_edi.model_l10n_bo_company_activities
+msgid "SII Company Economical Activities"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields.selection,name:l10n_bo_edi.selection__res_company__l10n_bo_dfe_service_provider__sin
+msgid "SIN - Production"
+msgstr "SIIN - Producción"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields.selection,name:l10n_bo_edi.selection__res_company__l10n_bo_dfe_service_provider__sintest
+msgid "SIN - Test"
+msgstr "SIN - Prueba"
+
+#. module: l10n_bo_edi
+#: model:ir.actions.act_window,name:l10n_bo_edi.act_l10n_bo_company_activities
+#: model:ir.ui.menu,name:l10n_bo_edi.menu_l10n_bo_company_activities
+msgid "SIN Activities"
+msgstr "Actividades SIN"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.account_move_bo_edi_form
+msgid "SIN Codes"
+msgstr "Códigos SIN"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.view_l10n_bo_company_activities_form
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.view_l10n_bo_company_activities_tree
+msgid "SIN Economic Activities"
+msgstr "Actividad Económica SIN"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.product_template_bo_edi_form
+msgid "SIN Item"
+msgstr "Producto SIN"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_product_product__sin_item
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_product_template__sin_item
+msgid "SIN Item related"
+msgstr "Producto relacionados SIN"
+
+#. module: l10n_bo_edi
+#: model:ir.actions.act_window,name:l10n_bo_edi.act_sin_items
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_l10n_bo_company_activities__sin_item_ids
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.view_activity_doc_sector_tree
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.view_bo_edi_params_form
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.view_bo_edi_params_tree
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.view_boedi_date_time_tree
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.view_invoice_incident_tree
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.view_partner_activities_form
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.view_partner_activities_tree
+msgid "SIN Items"
+msgstr "Producto SIN"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_product_product__measure_unit
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_product_template__measure_unit
+msgid "SIN Measure Unit related"
+msgstr "Unidad de medida relacionado SIN"
+
+#. module: l10n_bo_edi
+#: model:ir.model,name:l10n_bo_edi.model_payment_method
+msgid "SIN Payment Method"
+msgstr "Metodo de Pago SIN"
+
+#. module: l10n_bo_edi
+#: model:ir.model,name:l10n_bo_edi.model_cancelled_invoices
+msgid "SIN cancelled invoices"
+msgstr "Facturas canceladas SIN"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_incident__sin_code
+msgid "SIN code"
+msgstr "Códigos SIN"
+
+#. module: l10n_bo_edi
+#: model:ir.model,name:l10n_bo_edi.model_document_status
+msgid "SIN document status"
+msgstr "Estado de documento SIN"
+
+#. module: l10n_bo_edi
+#: model:ir.model,name:l10n_bo_edi.model_standard_billing
+msgid "SIN standard billing with control code"
+msgstr "Facturación estándar con código de control SIN"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.report_invoice_document
+msgid "SUBTOTAL"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.report_invoice_document
+msgid "SUBTOTAL Bs.:"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_sale_point_type__name
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.sin_sync_view_form
+msgid "Sale Point Type"
+msgstr "Tipo de Punto de Venta"
+
+#. module: l10n_bo_edi
+#: model:ir.actions.act_window,name:l10n_bo_edi.act_sale_point_type
+msgid "Saler Point Type"
+msgstr "Tipo de Punto de Venta"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.view_bo_edi_params_search
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.view_invoice_incident_search
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.view_l10n_bo_company_activities_search
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.view_partner_activities_search
+msgid "Search By"
+msgstr "Búsqueda por"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_activity_doc_sector__sector_doc_code
+msgid "Sector Doc Code"
+msgstr "Código de documento de sector"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_activity_doc_sector__sector_doc_type
+msgid "Sector Doc type"
+msgstr "Sector Tipo de documento"
+
+#. module: l10n_bo_edi
+#: model:ir.model,name:l10n_bo_edi.model_sector_types
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_sector_types__name
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.res_config_settings_view_bo_form
+msgid "Sector Type"
+msgstr "Tipo de Sector"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_res_company__l10n_bo_sector_type
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_res_config_settings__l10n_bo_sector_type
+msgid "Sector Type Selection"
+msgstr "Selección del tipo de sector"
+
+#. module: l10n_bo_edi
+#: model:ir.actions.act_window,name:l10n_bo_edi.cufd_log_action
+msgid "See CUFD log"
+msgstr "Ver registro CUFD"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.res_config_settings_view_bo_form
+msgid "Select the invoice sector type"
+msgstr "Seleccione el tipo de sector de la factura"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.res_config_settings_view_bo_form
+msgid "Select the invoicing modality"
+msgstr "Seleccione la modalidad de facturación"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.res_config_settings_view_bo_form
+msgid "Select the system ambience"
+msgstr "Seleccione el ambiente del sistema"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__dosage_id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__dosage_id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_payment__dosage_id
+msgid "Selected Dosage"
+msgstr "Dosificación Seleccionada"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__l10n_bo_selling_point
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__l10n_bo_selling_point
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_payment__l10n_bo_selling_point
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cufd_log__selling_point_id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_dosage__selling_point_id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_incident__selling_point_id
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_res_users__l10n_bo_selling_point_id
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.res_users_bo_edi_form
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.selling_point_view_list
+msgid "Selling Point"
+msgstr "Punto de Venta"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_selling_point__id_selling_point
+msgid "Selling Point Code"
+msgstr "Código Punto de Venta"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.selling_point_view_form
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.sin_sync_view_form
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.validate_siat_view_form
+msgid "Selling Point Form"
+msgstr "Formulario Punto de Venta"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_res_users__l10n_bo_is_seller
+msgid "Selling Point Manager"
+msgstr "Administrador Punto de Venta"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.res_users_bo_edi_form
+msgid "Selling Point User"
+msgstr "Usuarios Punto de Venta"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_branch_office__selling_point_ids
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.branch_office_view_form
+msgid "Selling Points"
+msgstr "Puntos de Venta"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_selling_point__name
+msgid "Selling point"
+msgstr "Punto de Venta"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,help:l10n_bo_edi.field_res_company__l10n_bo_invoice_package_number
+#: model:ir.model.fields,help:l10n_bo_edi.field_res_config_settings__l10n_bo_invoice_package_number
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.res_config_settings_view_bo_form
+msgid "Set the number of invoices per package"
+msgstr "Establecer el número de facturas por paquete"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,help:l10n_bo_edi.field_res_company__l10n_bo_sync_time
+#: model:ir.model.fields,help:l10n_bo_edi.field_res_config_settings__l10n_bo_sync_time
+msgid "Set the synchronization time for the SIN values"
+msgstr "Establecer el tiempo de sincronización para los valores SIN"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_l10n_bo_certificate__signature_crt_filename
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_l10n_bo_certificate__signature_filename
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_l10n_bo_certificate__signature_key_filename
+msgid "Signature File Name"
+msgstr "Nombre fichero firmado"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.sin_sync_view_form
+msgid "Sin Items"
+msgstr "Productos SIN"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_sin_sync__name
+msgid "Sincronización SIAT"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cufd_log__street
+msgid "Street"
+msgstr "Dirección"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.graphic_representation_template
+msgid "Subtotal"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.actions.act_window,name:l10n_bo_edi.act_branch_office
+#: model:ir.model,name:l10n_bo_edi.model_branch_office
+#: model:ir.ui.menu,name:l10n_bo_edi.menu_branch_office
+msgid "Sucursales"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.actions.act_window,name:l10n_bo_edi.act_sin_sync
+#: model:ir.ui.menu,name:l10n_bo_edi.menu_sin_sync
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.document_sec_type_view_list
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.id_type_view_list
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.invoice_caption_view_list
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.invoice_event_view_list
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.measure_unit_view_list
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.messages_service_view_list
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.native_country_view_list
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.payment_method_view_list
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.sin_sync_view_list
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.validate_siat_view_list
+msgid "Sync SIAT"
+msgstr "Sincronización SIAT"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.sin_sync_view_form
+msgid "Sync SIAT Parameter"
+msgstr "Sincronización de parametros SIAT"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_res_company__l10n_bo_sync_time
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_res_config_settings__l10n_bo_sync_time
+msgid "Sync Time"
+msgstr "Sincronización Tiempo"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_res_company__l10n_bo_system_code
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_res_config_settings__l10n_bo_system_code
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.res_config_settings_view_bo_form
+msgid "System Code"
+msgstr "Código de Sistema"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.report_invoice_document
+msgid "TOTAL Bs.:"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.graphic_representation_template
+msgid "Telefono:"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.report_invoice_document
+msgid "Teléfono:"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,help:l10n_bo_edi.field_l10n_bo_certificate__cert_expiration
+msgid "The date on which the certificate expires"
+msgstr "La fecha de caducidad del certificado"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.res_config_settings_view_bo_form
+msgid "The parameters to configure the signature certificate."
+msgstr "Los parámetros para configurar la firma digital."
+
+#. module: l10n_bo_edi
+#: code:addons/l10n_bo_edi/models/res_company.py:0
+#, python-format
+msgid "There is not a valid certificate for the company: %s"
+msgstr "No existe un certificado válido para la empresa: %s"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__tipo_com
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__tipo_com
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_payment__tipo_com
+#: model:ir.model.fields,help:l10n_bo_edi.field_account_bank_statement_line__tipo_com
+#: model:ir.model.fields,help:l10n_bo_edi.field_account_move__tipo_com
+#: model:ir.model.fields,help:l10n_bo_edi.field_account_payment__tipo_com
+msgid "Tipo de Compra"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_res_config_settings__l10n_bo_token
+msgid "Token Api"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_res_company__l10n_bo_token
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.res_config_settings_view_bo_form
+msgid "Token Api Delegated"
+msgstr "Token Delegado"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,help:l10n_bo_edi.field_res_company__l10n_bo_token
+#: model:ir.model.fields,help:l10n_bo_edi.field_res_config_settings__l10n_bo_token
+msgid "Token Api delegated"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_l10n_bo_certificate__token_time
+msgid "Token Time"
+msgstr "Tiempo Token"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__amount_open
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__amount_open
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_payment__amount_open
+msgid "Total Factura"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__amount_giftcard
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__amount_giftcard
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_payment__amount_giftcard
+msgid "Total Gift Card"
+msgstr "Total Tarjeta de Regalo"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_l10n_bo_company_activities__type
+msgid "Type"
+msgstr "Tipo"
+
+#. module: l10n_bo_edi
+#: model:ir.model,name:l10n_bo_edi.model_type_emission
+msgid "Type Emision SIAT"
+msgstr "Tipo de Emisión SIAT"
+
+#. module: l10n_bo_edi
+#: model:ir.actions.act_window,name:l10n_bo_edi.act_type_emission
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_type_emission__name
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.sin_sync_view_form
+msgid "Type Emission"
+msgstr "Tipo Emisión"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_type_rooms__name
+msgid "Type Room"
+msgstr "Tipo Habitación"
+
+#. module: l10n_bo_edi
+#: model:ir.actions.act_window,name:l10n_bo_edi.act_type_rooms
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.sin_sync_view_form
+msgid "Type Rooms"
+msgstr "Tipo Habitaciones"
+
+#. module: l10n_bo_edi
+#: model:ir.model,name:l10n_bo_edi.model_type_rooms
+msgid "Type Rooms SIAT"
+msgstr "Tipo de Habitaciones SIAT"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.report_invoice_document
+msgid "UNIDAD DE MEDIDA"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__l10n_bo_url
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__l10n_bo_url
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_payment__l10n_bo_url
+msgid "URL Invoice SIAT"
+msgstr "URL Factura SIAT"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_dosage__cuis
+msgid "Unique CUIS System"
+msgstr "CUIS Unico de sistema"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_branch_office__user_ids
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.branch_office_view_form
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.selling_point_view_form
+msgid "Users"
+msgstr "Usuarios"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_invoice_dosage__user_ids
+msgid "Users Dosage"
+msgstr "Usuarios de Dosificación"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_selling_point__user_ids
+msgid "Users in Charge"
+msgstr "Usuarios a cargo"
+
+#. module: l10n_bo_edi
+#: model:ir.model,name:l10n_bo_edi.model_res_users
+msgid "Users inherit"
+msgstr "Usuarios Herededos"
+
+#. module: l10n_bo_edi
+#: model:ir.model,name:l10n_bo_edi.model_l10n_bo_edi_util
+msgid "Utility Methods for Bolivian Electronic Invoicing"
+msgstr "Métodos de Utilidad para la Factura Electrónica Boliviana"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_res_bank__vat
+msgid "VAT"
+msgstr "NIT/CI"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_validate_siat__name
+msgid "Validate Name"
+msgstr "Nombre Validación"
+
+#. module: l10n_bo_edi
+#: model:ir.actions.act_window,name:l10n_bo_edi.act_validate_siat
+#: model:ir.ui.menu,name:l10n_bo_edi.menu_validate_siat
+msgid "Validate SIAT"
+msgstr "Validad SIAT"
+
+#. module: l10n_bo_edi
+#: model:ir.model,name:l10n_bo_edi.model_validate_siat
+msgid "Validate system siat"
+msgstr "Validar Sistema SIAT"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_bo_edi_params__value
+msgid "Value"
+msgstr "Valor"
+
+#. module: l10n_bo_edi
+#: model_terms:ir.ui.view,arch_db:l10n_bo_edi.sin_sync_view_form
+msgid "View Sync Activities"
+msgstr "Ver sincronización de actividades"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields.selection,name:l10n_bo_edi.selection__account_move__state_sin__v
+msgid "VÁLIDA"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__l10n_bo_xml
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__l10n_bo_xml
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_payment__l10n_bo_xml
+msgid "XML File"
+msgstr "Fichero XML"
+
+#. module: l10n_bo_edi
+#: code:addons/l10n_bo_edi/models/account_move.py:0
+#, python-format
+msgid ""
+"Ya tiene registrado el Nro de Factura y Nro de Dosificación en el sistema"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: code:addons/l10n_bo_edi/models/account_move.py:0
+#, python-format
+msgid ""
+"Ya tiene registrado el Nro de Nota debit/credito y Nro de Dosificación en el"
+" sistema"
+msgstr ""
+
+#. module: l10n_bo_edi
+#: model:ir.model,name:l10n_bo_edi.model_ambience_siat
+msgid "ambience"
+msgstr "Ambiente"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__cafc
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__cafc
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_payment__cafc
+msgid "cafc"
+msgstr "CAFC"
+
+#. module: l10n_bo_edi
+#: model:ir.model,name:l10n_bo_edi.model_cancellation_reasons
+msgid "cancellation_reasons"
+msgstr "Motivo Cancelación"
+
+#. module: l10n_bo_edi
+#: model:ir.model,name:l10n_bo_edi.model_cafc_log
+#: model:ir.model,name:l10n_bo_edi.model_cufd_log
+msgid "cufd"
+msgstr "CUFD"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cancelled_invoices__date
+msgid "date"
+msgstr "Fecha"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cancellation_reasons__description
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_document_sec_type__description
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_document_status__description
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_native_country__description
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_payment_method__description
+msgid "description"
+msgstr "Descripción"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_bank_statement_line__e_billing
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_move__e_billing
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_account_payment__e_billing
+msgid "e_billing"
+msgstr "Facturacion Eletrónica"
+
+#. module: l10n_bo_edi
+#: model:ir.model,name:l10n_bo_edi.model_modalities_siat
+msgid "modalities"
+msgstr "Modalidad"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cancelled_invoices__payment_reference
+msgid "payment_reference"
+msgstr "Referencia de Pago"
+
+#. module: l10n_bo_edi
+#: model:ir.model.fields,field_description:l10n_bo_edi.field_cancelled_invoices__reversed
+msgid "reversed"
+msgstr "Revertido"
+
+#. module: l10n_bo_edi
+#: model:ir.model,name:l10n_bo_edi.model_selling_point
+msgid "selling_point"
+msgstr "Punto de Venta"

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Selling Point Form -->
+    <record model="ir.ui.view" id="sin_sync_view_form">
+        <field name="name">sin.sync.view.form</field>
+        <field name="model">sin.sync</field>
+        <field name="arch" type="xml">
+            <form string="Selling Point Form">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <field name="company_id"/>
+                            <field name="dosage_id"/>
+                        </group>
+                        <group>
+                            <button name="cert_sync_catal" string="Sync SIAT Parameter" class="oe_highlight"
+                                    type="object"/>
+                            <button name='%(act_l10n_bo_company_activities)d' icon="fa-arrow-right" type="action"
+                                    string="View Sync Activities" class="btn-link"/>
+                            <button name='%(act_boedi_date_time)d' icon="fa-arrow-right" type="action"
+                                    string="Date time sync" class="btn-link"/>
+                            <button name='%(act_activity_doc_sector)d' icon="fa-arrow-right" type="action"
+                                    string="Activity sector document" class="btn-link"/>
+                            <button name='%(act_invoice_caption)d' icon="fa-arrow-right" type="action"
+                                    string="Invoice Caption" class="btn-link"/>
+                            <button name='%(act_messages_service)d' icon="fa-arrow-right" type="action"
+                                    string="Messages Service" class="btn-link"/>
+                            <button name='%(act_sin_items)d' icon="fa-arrow-right" type="action"
+                                    string="Sin Items" class="btn-link"/>
+                            <button name='%(act_measure_unit)d' icon="fa-arrow-right" type="action"
+                                    string="Measure Unit" class="btn-link"/>
+                            <button name='%(act_invoice_event)d' icon="fa-arrow-right" type="action"
+                                    string="Invoice Events" class="btn-link"/>
+                            <button name='%(act_null_reason)d' icon="fa-arrow-right" type="action"
+                                    string="Null Reason" class="btn-link"/>
+                            <button name='%(act_native_country)d' icon="fa-arrow-right" type="action"
+                                    string="Native country" class="btn-link"/>
+                            <button name='%(act_id_type)d' icon="fa-arrow-right" type="action"
+                                    string="ID Type" class="btn-link"/>
+                            <button name='%(act_document_sec_type)d' icon="fa-arrow-right" type="action"
+                                    string="Document Type" class="btn-link"/>
+                            <button name='%(act_payment_method)d' icon="fa-arrow-right" type="action"
+                                    string="Payment Method" class="btn-link"/>
+                            <button name='%(act_invoice_type_siat)d' icon="fa-arrow-right" type="action"
+                                    string="Invoice Type" class="btn-link"/>
+                            <button name='%(act_sale_point_type)d' icon="fa-arrow-right" type="action"
+                                    string="Sale Point Type" class="btn-link"/>
+                            <button name='%(act_type_rooms)d' icon="fa-arrow-right" type="action"
+                                    string="Type Rooms" class="btn-link"/>
+                            <button name='%(act_type_emission)d' icon="fa-arrow-right" type="action"
+                                    string="Type Emission" class="btn-link"/>
+                            <button name='%(act_currency_siat)d' icon="fa-arrow-right" type="action"
+                                    string="Currency" class="btn-link"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <!-- Selling Point List -->
+    <record model="ir.ui.view" id="sin_sync_view_list">
+        <field name="name">sin.sync.view.list</field>
+        <field name="model">sin.sync</field>
+        <field name="arch" type="xml">
+            <tree string="Sync SIAT">
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+    <!-- Selling point Search -->
+    <record model="ir.ui.view" id="sin_sync_view_search">
+        <field name="name">sin.sync.view.search</field>
+        <field name="model">sin.sync</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name"/>
+            </search>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="act_sin_sync">
+        <field name="name">Sync SIAT</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">sin.sync</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    <menuitem
+            id="menu_sin_sync"
+            action="act_sin_sync"
+            parent="l10n_bo_edi.menu_sin_bolivia"
+            sequence="14"/>
+</odoo>

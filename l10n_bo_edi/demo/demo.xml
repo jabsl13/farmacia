@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="object8" model="sector.types">
+            <field name="id_sector_type">1</field>
+            <field name="description">FACTURA COMPRA-VENTA</field>
+            <field name="name">FACTURA COMPRA-VENTA</field>
+        </record>
+        <record id="object9" model="sector.types">
+            <field name="id_sector_type">24</field>
+            <field name="description">NOTA DE CREDITO-DEBITO</field>
+            <field name="name">NOTA DE CREDITO-DEBITO</field>
+        </record>
+        <record id="object10" model="l10n_bo.company.activities">
+            <field name="code">1220</field>
+            <field name="name">REALIZA ACTIVIDADES SOLO DE IMPORTACION</field>
+            <field name="type">S</field>
+        </record>
+        <record id="object11" model="l10n_bo.company.activities">
+            <field name="code">464300</field>
+            <field name="name">VENTA AL POR MAYOR DE OTROS PRODUCTOS</field>
+            <field name="type">P</field>
+        </record>
+        <record id="object12" model="l10n_bo.company.activities">
+            <field name="code">951000</field>
+            <field name="name">MANTENIMIENTO Y REPARACION MAQ DE OFICINA E INFORMATICA</field>
+            <field name="type">S</field>
+        </record>
+        <record id="object13" model="sin.items">
+            <field name="sin_code">87290</field>
+            <field name="description">SERVICIO DE MANTENIMIENTO Y REPARACION DE OTROS BIENES N.C.P.</field>
+            <field name="name">SERVICIO DE MANTENIMIENTO Y REPARACION DE OTROS BIENES N.C.P.</field>
+            <field name="activity_code" ref="object12"></field>
+        </record>
+        <record id="object28" model="invoice.dosage">
+            <field name="name">Dos-CompraVenta-070222</field>
+            <field name="code">Dos-CompraVenta-070222</field>
+            <field name="auth_number">265401200123385</field>
+            <field name="end_date">2022-08-06 00:00:00</field>
+            <field name="selling_point_id" ref="object5"></field>
+            <field name="invoice_number">1</field>
+            <field name="key">8Vu*+BEa8yybz-2i5)FbQG+9=zH%CB+xxZ=6JDWGEX8m6QfyC%(bWNX@[UV](u]k</field>
+            <field name="invoice_caption">Ley N° 453: El proveedor debe brindar atención sin discriminación, con
+                respeto, calidez y cordialidad a los usuarios y consumidores
+            </field>
+        </record>
+    </data>
+</odoo>

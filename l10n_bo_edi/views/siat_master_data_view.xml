@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_activity_doc_sector_tree" model="ir.ui.view">
+        <field name="name">l10n_bo.activity.doc.sector.tree</field>
+        <field name="model">activity.doc.sector</field>
+        <field name="arch" type="xml">
+            <tree string="SIN Items">
+                <field name="name"/>
+                <field name="activity_code"/>
+                <field name="sector_doc_code"/>
+                <field name="sector_doc_type"/>
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="act_activity_doc_sector">
+        <field name="name">Actyivity Sector SIAT</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">activity.doc.sector</field>
+        <field name="view_mode">tree</field>
+    </record>
+
+    <record id="view_boedi_date_time_tree" model="ir.ui.view">
+        <field name="name">l10n_bo.boedi.date.time.tree</field>
+        <field name="model">boedi.date.time</field>
+        <field name="arch" type="xml">
+            <tree string="SIN Items">
+                <field name="name"/>
+                <field name="active"/>
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="act_boedi_date_time">
+        <field name="name">DateTime SIAT Sync</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">boedi.date.time</field>
+        <field name="view_mode">tree</field>
+    </record>
+
+    <!-- Branch Office Form -->
+    <record model="ir.ui.view" id="branch_office_view_form">
+        <field name="name">branch.office.view.form</field>
+        <field name="model">branch.office</field>
+        <field name="arch" type="xml">
+            <form string="Branch Office Form">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="id_branch_office"/>
+                            <field name="name"/>
+                        </group>
+                        <group>
+                            <field name="address"/>
+                        </group>
+                        <group>
+                            <field name="active"/>
+                            <field name="company_id"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Description">
+                            <field name="description"/>
+                        </page>
+                        <page string="Users">
+                            <field name="user_ids"/>
+                        </page>
+                        <page string="Selling Points">
+                            <field name="selling_point_ids"/>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Branch Office List -->
+    <record model="ir.ui.view" id="branch_office_view_list">
+        <field name="name">branch.office.view.list</field>
+        <field name="model">branch.office</field>
+        <field name="arch" type="xml">
+            <tree string="Branch Office">
+                <field name="id_branch_office"/>
+                <field name="name"/>
+                <field name="active"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- Branch Office Search -->
+    <record model="ir.ui.view" id="branch_office_view_search">
+        <field name="name">branch.office.view.search</field>
+        <field name="model">branch.office</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="id_branch_office"/>
+                <field name="name"/>
+                <field name="active"/>
+            </search>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="act_branch_office">
+        <field name="name">Sucursales</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">branch.office</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem
+            id="menu_branch_office"
+            action="act_branch_office"
+            parent="l10n_bo_edi.menu_sin_bolivia"
+            sequence="10"/>
+
+    <!-- Selling Point Form -->
+    <record model="ir.ui.view" id="selling_point_view_form">
+        <field name="name">selling.point.view.form</field>
+        <field name="model">selling.point</field>
+        <field name="arch" type="xml">
+            <form string="Selling Point Form">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <field name="id_selling_point"/>
+                        </group>
+                        <group>
+                            <field name="branch_office_id"/>
+                        </group>
+                        <group>
+                            <field name="active"/>
+                            <field name="company_id"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Description">
+                            <field name="description"/>
+                        </page>
+                        <page string="Cufd Related Codes">
+                            <field name="cufd_ids"/>
+                        </page>
+                        <page string="Users">
+                            <field name="user_ids"/>
+                        </page>
+                        <page string="Invoice Dosages">
+                            <field name="invoice_dosage_ids"/>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <!-- Selling Point List -->
+    <record model="ir.ui.view" id="selling_point_view_list">
+        <field name="name">selling.point.view.list</field>
+        <field name="model">selling.point</field>
+        <field name="arch" type="xml">
+            <tree string="Selling Point">
+                <field name="name"/>
+                <field name="id_selling_point"/>
+                <field name="description"/>
+                <field name="branch_office_id"/>
+                <field name="active"/>
+            </tree>
+        </field>
+    </record>
+    <!-- Selling point Search -->
+    <record model="ir.ui.view" id="selling_point_view_search">
+        <field name="name">selling.point.view.search</field>
+        <field name="model">selling.point</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name"/>
+                <field name="id_selling_point"/>
+                <field name="description"/>
+                <field name="branch_office_id"/>
+                <field name="active"/>
+            </search>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="act_selling_point">
+        <field name="name">Puntos de venta</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">selling.point</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem
+            id="menu_selling_point"
+            action="act_selling_point"
+            parent="l10n_bo_edi.menu_sin_bolivia"
+            sequence="11"/>
+
+    <!-- Document type Point List -->
+    <record model="ir.ui.view" id="document_sec_type_view_list">
+        <field name="name">document.sec.type.view.list</field>
+        <field name="model">document.sec.type</field>
+        <field name="arch" type="xml">
+            <tree string="Sync SIAT">
+                <field name="name"/>
+                <field name="code"/>
+                <field name="code_type"/>
+            </tree>
+        </field>
+    </record>
+    <!-- Document type point Search -->
+    <record model="ir.ui.view" id="document_sec_type_view_search">
+        <field name="name">document.sec.type.view.search</field>
+        <field name="model">document.sec.type</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name"/>
+            </search>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="act_document_sec_type">
+        <field name="name">Document Type</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">document.sec.type</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- Document type Point List -->
+    <record model="ir.ui.view" id="id_type_view_list">
+        <field name="name">id.type.view.list</field>
+        <field name="model">id.type</field>
+        <field name="arch" type="xml">
+            <tree string="Sync SIAT">
+                <field name="name"/>
+                <field name="id_type_code"/>
+                <field name="active"/>
+            </tree>
+        </field>
+    </record>
+    <!-- Document type point Search -->
+    <record model="ir.ui.view" id="id_type_view_search">
+        <field name="name">id.type.view.search</field>
+        <field name="model">id.type</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name"/>
+            </search>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="act_id_type">
+        <field name="name">ID type</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">id.type</field>
+        <field name="view_mode">tree</field>
+    </record>
+
+    <!-- Document type Point List -->
+    <record model="ir.ui.view" id="invoice_caption_view_list">
+        <field name="name">invoice.caption.view.list</field>
+        <field name="model">invoice.caption</field>
+        <field name="arch" type="xml">
+            <tree string="Sync SIAT">
+                <field name="name"/>
+                <field name="activity_code"/>
+            </tree>
+        </field>
+    </record>
+    <!-- Document type point Search -->
+    <record model="ir.ui.view" id="invoice_caption_view_search">
+        <field name="name">invoice.caption.view.search</field>
+        <field name="model">invoice.caption</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name"/>
+            </search>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="act_invoice_caption">
+        <field name="name">Document Type</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">invoice.caption</field>
+        <field name="view_mode">tree</field>
+    </record>
+
+    <!-- Document type Point List -->
+    <record model="ir.ui.view" id="invoice_event_view_list">
+        <field name="name">invoice.event.view.list</field>
+        <field name="model">invoice.event</field>
+        <field name="arch" type="xml">
+            <tree string="Sync SIAT">
+                <field name="code"/>
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+    <!-- Document type point Search -->
+    <record model="ir.ui.view" id="invoice_event_view_search">
+        <field name="name">invoice.event.view.search</field>
+        <field name="model">invoice.event</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name"/>
+            </search>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="act_invoice_event">
+        <field name="name">Invoice Event</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">invoice.event</field>
+        <field name="view_mode">tree</field>
+    </record>
+
+    <!-- Document type Point List -->
+    <record model="ir.ui.view" id="measure_unit_view_list">
+        <field name="name">measure.unit.view.list</field>
+        <field name="model">measure.unit</field>
+        <field name="arch" type="xml">
+            <tree string="Sync SIAT">
+                <field name="name"/>
+                <field name="measure_unit_code"/>
+            </tree>
+        </field>
+    </record>
+    <!-- Document type point Search -->
+    <record model="ir.ui.view" id="measure_unit_view_search">
+        <field name="name">measure.unit.view.search</field>
+        <field name="model">measure.unit</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name"/>
+            </search>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="act_measure_unit">
+        <field name="name">Measure Unit</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">measure.unit</field>
+        <field name="view_mode">tree</field>
+    </record>
+
+    <!-- Document type Point List -->
+    <record model="ir.ui.view" id="messages_service_view_list">
+        <field name="name">messages.service.view.list</field>
+        <field name="model">messages.service</field>
+        <field name="arch" type="xml">
+            <tree string="Sync SIAT">
+                <field name="code"/>
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+    <!-- Document type point Search -->
+    <record model="ir.ui.view" id="messages_service_view_search">
+        <field name="name">messages.service.view.search</field>
+        <field name="model">messages.service</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name"/>
+            </search>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="act_messages_service">
+        <field name="name">Message Service</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">messages.service</field>
+        <field name="view_mode">tree</field>
+    </record>
+
+    <!-- Document type Point List -->
+    <record model="ir.ui.view" id="native_country_view_list">
+        <field name="name">native.country.view.list</field>
+        <field name="model">native.country</field>
+        <field name="arch" type="xml">
+            <tree string="Sync SIAT">
+                <field name="code"/>
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+    
+    <record model="ir.ui.view" id="native_country_view_search">
+        <field name="name">native.country.view.search</field>
+        <field name="model">native.country</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name"/>
+            </search>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="act_native_country">
+        <field name="name">Native country</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">native.country</field>
+        <field name="view_mode">tree</field>
+    </record>
+
+    <!-- Document type Point List -->
+    <record model="ir.ui.view" id="null_reason_view_tree">
+        <field name="name">null.reason.view.tree</field>
+        <field name="model">null.reason</field>
+        <field name="arch" type="xml">
+            <tree string="Sync SIAT">
+                <field name="code"/>
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+    <!-- Document type point Search -->
+    <record model="ir.ui.view" id="null_reason_view_tree">
+        <field name="name">null.reason.view.tree</field>
+        <field name="model">null.reason</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="code"/>
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="act_null_reason">
+        <field name="name">Null Reason</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">null.reason</field>
+        <field name="view_mode">tree</field>
+    </record>
+
+    <!-- Invoice Type SIAT -->
+    <record model="ir.ui.view" id="invoice_type_siat_view_tree">
+        <field name="name">invoice.type.siat.view.tree</field>
+        <field name="model">invoice.type.siat</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="code"/>
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="act_invoice_type_siat">
+        <field name="name">Invoice Type</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">invoice.type.siat</field>
+        <field name="view_mode">tree</field>
+    </record>
+
+    <!-- Sale Point Type -->
+    <record model="ir.ui.view" id="sale_point_type_view_tree">
+        <field name="name">sale.point.type.view.tree</field>
+        <field name="model">sale.point.type</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="code"/>
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="act_sale_point_type">
+        <field name="name">Saler Point Type</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">sale.point.type</field>
+        <field name="view_mode">tree</field>
+    </record>
+
+    <!-- Type Rooms -->
+    <record model="ir.ui.view" id="type_rooms_view_tree">
+        <field name="name">type.rooms.view.tree</field>
+        <field name="model">type.rooms</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="code"/>
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="act_type_rooms">
+        <field name="name">Type Rooms</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">type.rooms</field>
+        <field name="view_mode">tree</field>
+    </record>
+
+    <!-- Currency SIAT -->
+    <record model="ir.ui.view" id="currency_siat_view_tree">
+        <field name="name">currency.siat.view.tree</field>
+        <field name="model">currency.siat</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="code"/>
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="act_currency_siat">
+        <field name="name">Currency</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">currency.siat</field>
+        <field name="view_mode">tree</field>
+    </record>
+
+    <!-- Type Emission -->
+    <record model="ir.ui.view" id="type_emission_view_tree">
+        <field name="name">type.emission.view.tree</field>
+        <field name="model">type.emission</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="code"/>
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="act_type_emission">
+        <field name="name">Type Emission</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">type.emission</field>
+        <field name="view_mode">tree</field>
+    </record>
+
+    <!-- Document type Point List -->
+    <record model="ir.ui.view" id="payment_method_view_list">
+        <field name="name">payment.method.view.list</field>
+        <field name="model">payment.method</field>
+        <field name="arch" type="xml">
+            <tree string="Sync SIAT">
+                <field name="code"/>
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+    <!-- Payment Method Search -->
+    <record model="ir.ui.view" id="payment_method_view_search">
+        <field name="name">payment.method.view.search</field>
+        <field name="model">payment.method</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name"/>
+            </search>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="act_payment_method">
+        <field name="name">Payment Method SIAT</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">payment.method</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="view_partner_activities_search" model="ir.ui.view">
+        <field name="name">l10n_bo.sin.items.search</field>
+        <field name="model">sin.items</field>
+        <field name="arch" type="xml">
+            <search string="Search By">
+                <field name="sin_code"/>
+                <field name="name"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="view_partner_activities_form" model="ir.ui.view">
+        <field name="name">l10n_bo.sin.items.form</field>
+        <field name="model">sin.items</field>
+        <field name="arch" type="xml">
+            <form string="SIN Items">
+                <group>
+                    <field name="name"/>
+                    <field name="sin_code"/>
+                    <field name="activity_code"/>
+                    <field name="active"/>
+                </group>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_partner_activities_tree" model="ir.ui.view">
+        <field name="name">l10n_bo.sin.items.tree</field>
+        <field name="model">sin.items</field>
+        <field name="arch" type="xml">
+            <tree string="SIN Items">
+                <field name="name"/>
+                <field name="sin_code"/>
+                <field name="activity_code"/>
+            </tree>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="act_sin_items">
+        <field name="name">SIN Items</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">sin.items</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- Incidentes de conexion -->
+    <record id="view_invoice_incident_search" model="ir.ui.view">
+        <field name="name">l10n_bo.invoice.incident.search</field>
+        <field name="model">invoice.incident</field>
+        <field name="arch" type="xml">
+            <search string="Search By">
+                <field name="description"/>
+                <field name="begin_date"/>
+                <field name="end_date"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="view_invoice_incident_form" model="ir.ui.view">
+        <field name="name">l10n_bo.invoice.incident.form</field>
+        <field name="model">invoice.incident</field>
+        <field name="arch" type="xml">
+            <form string="Invoice Events">
+                <header>
+                    <field name="state" widget="statusbar"/>
+                </header>
+                <sheet>
+                    <div class="oe_title">
+                        <span class="o_form_label">Dosage
+                        </span>
+                        <h1>
+                            <field name="name" readonly="1"/>
+                        </h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="description"/>
+                            <field name="begin_date"/>
+                            <field name="end_date"/>
+                            <field name="sin_code"/>
+                            <field name="siat_code"/>
+                            <field name="sector_siat_id"/>
+                        </group>
+                        <group>
+                            <field name="invoice_event_id"/>
+                            <field name="selling_point_id"/>
+                            <field name="cufd_log_id"/>
+                            <field name="company_id"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_invoice_incident_tree" model="ir.ui.view">
+        <field name="name">l10n_bo.invoice.incident.tree</field>
+        <field name="model">invoice.incident</field>
+        <field name="arch" type="xml">
+            <tree string="SIN Items">
+                <field name="state"/>
+                <field name="description"/>
+                <field name="begin_date"/>
+                <field name="end_date"/>
+            </tree>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="act_invoice_events">
+        <field name="name">Invoice Events</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">invoice.incident</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem name="Invoice Events"
+              id="menu_action_act_invoice_events"
+              action="act_invoice_events"
+              parent="l10n_bo_edi.menu_sin_bolivia"
+              sequence="15"/>
+</odoo>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- CUFD Form -->
+    <record model="ir.ui.view" id="cufd_log_view_form">
+        <field name="name">cufd.view.form</field>
+        <field name="model">cufd.log</field>
+        <field name="arch" type="xml">
+            <form string="CUFD Form">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <field name="id_cufd"/>
+                            <field name="cufd"/>
+                        </group>
+                        <group>
+                            <field name="begin_date"/>
+                            <field name="end_date"/>
+                        </group>
+                        <group>
+                            <field name="invoice_number"/>
+                            <field name="selling_point_id"/>
+                        </group>
+                        <group>
+                            <field name="control_code"/>
+                            <field name="street"/>
+                            <field name="active"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- CUFD List -->
+    <record model="ir.ui.view" id="cufd_log_view_list">
+        <field name="name">cufd.view.list</field>
+        <field name="model">cufd.log</field>
+        <field name="arch" type="xml">
+            <tree string="CUFD">
+                <field name="cufd"/>
+                <field name="control_code"/>
+                <field name="invoice_number"/>
+                <field name="begin_date"/>
+                <field name="end_date"/>
+                <field name="active"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- CUFD Search -->
+    <record model="ir.ui.view" id="cufd_log_view_search">
+        <field name="name">cufd.view.search</field>
+        <field name="model">cufd.log</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name"/>
+                <field name="id_cufd"/>
+                <field name="cufd"/>
+                <field name="begin_date"/>
+                <field name="invoice_number"/>
+                <field name="active"/>
+            </search>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="act_cufd_log">
+        <field name="name">Log CUFD</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">cufd.log</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem
+            id="menu_cufd_log"
+            action="act_cufd_log"
+            parent="l10n_bo_edi.menu_sin_bolivia"
+            sequence="13"/>
+</odoo>

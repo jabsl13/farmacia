@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Selling Point Form -->
+    <record model="ir.ui.view" id="validate_siat_view_form">
+        <field name="name">validate.siat.view.form</field>
+        <field name="model">validate.siat</field>
+        <field name="arch" type="xml">
+            <form string="Selling Point Form">
+                <sheet>
+                    <group>
+                        <group>
+                            <h1>
+                                <field name="name" placeholder="Name test"/>
+                            </h1>
+                            <field name="company_id"/>
+                            <field name="dosage_one"/>
+                            <field name="dosage_two"/>
+                        </group>
+                        <group>
+                            <div class="oe_title mb32">
+                                <div>
+                                    <button name="step1" string="Etapa I. Obtención CUIS"
+                                            type="object" class="btn btn-primary mr-1"/>
+                                    <br/>
+                                    <br/>
+                                    <button name="step2" string="Etapa II. Sincronización de catálogos"
+                                            type="object" class="btn btn-primary mr-1"/>
+                                    <br/>
+                                    <br/>
+                                    <button name="step3" string="Etapa III. Obtención de CUFD"
+                                            type="object" class="btn btn-primary mr-1"/>
+                                    <br/>
+                                    <br/>
+                                    <button name="step4" string="Etapa IV. Consumo de métodos de emisión individual"
+                                            type="object" class="btn btn-primary mr-1"/>
+                                    <br/>
+                                    <br/>
+                                    <button name="step5" string="Etapa V. Registro de eventos significativos"
+                                            type="object" class="btn btn-primary mr-1"/>
+                                    <br/>
+                                    <br/>
+                                    <button name="step6" string="Etapa VI. Consumo de métodos de emisión de paquetes"
+                                            type="object" class="btn btn-primary mr-1"/>
+                                    <br/>
+                                    <br/>
+                                    <button name="step7" string="Etapa VII. Anulación"
+                                            type="object" class="btn btn-primary mr-1"/>
+                                    <br/>
+                                    <br/>
+                                    <button name="step8" string="Etapa VIII.  Firma Digital"
+                                            type="object" class="btn btn-primary mr-1"/>
+                                    <br/>
+                                    <br/>
+                                    <button name="create_test_invoice"
+                                            string="Etapa IX. Consumo de métodos de emisión masiva"
+                                            type="object" class="btn btn-primary mr-1"/>
+                                </div>
+                            </div>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <!-- Selling Point List -->
+    <record model="ir.ui.view" id="validate_siat_view_list">
+        <field name="name">validate.siat.view.list</field>
+        <field name="model">validate.siat</field>
+        <field name="arch" type="xml">
+            <tree string="Sync SIAT">
+                <field name="name"/>
+                <field name="dosage_one"/>
+                <field name="dosage_two"/>
+            </tree>
+        </field>
+    </record>
+    <!-- Selling point Search -->
+    <record model="ir.ui.view" id="validate_siat_view_search">
+        <field name="name">validate.siat.view.search</field>
+        <field name="model">validate.siat</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name"/>
+            </search>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="act_validate_siat">
+        <field name="name">Validate SIAT</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">validate.siat</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    <menuitem
+            id="menu_validate_siat"
+            action="act_validate_siat"
+            parent="l10n_bo_edi.menu_sin_bolivia"
+            sequence="15"/>
+</odoo>

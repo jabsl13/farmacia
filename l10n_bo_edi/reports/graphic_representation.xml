@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="graphic_representation" model="ir.actions.report">
+        <field name="name">Representacion Grafica</field>
+        <field name="model">account.move</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">l10n_bo_edi.graphic_representation_template</field>
+        <field name="report_file">l10n_bo_edi.graphic_representation_template</field>
+        <!-- <field name="binding_model_id" ref="model_account_move"/>
+        <field name="binding_type">report</field> -->
+    </record>
+    <!-- <report id="action_report_graphic_representation" model="account.move" string="Representacion Gráfica" report_type="qweb-pdf" name="l10n_bo_edi.graphic_representation_template" file="l10n_bo_edi.graphic_representation_template" /> -->
+</odoo>

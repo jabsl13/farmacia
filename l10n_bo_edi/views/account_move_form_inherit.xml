@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- <data noupdate="1"> -->
+    <record id="account_move_bo_edi_form" model="ir.ui.view">
+        <field name="model">account.move</field>
+        <field name="name">account.move.bo.edi.form</field>
+        <field name="inherit_id" ref="account.view_move_form"></field>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='payment_reference']" position="after">
+                <field name="l10n_bo_time"/>
+                <field name="l10n_bo_id_type"/>
+                <field name="nit_ci" required="1"/>
+                <field name="razon_social" required="1"/>
+            </xpath>
+            <xpath expr="//field[@name='invoice_line_ids']" position="after">
+                <div class="oe_left">
+                    <group id="group_dosif">
+                        <field name="l10n_bo_invoice_number"
+                               attrs="{'readonly':['|',('state','not in',['draft']),('move_type', '=', 'out_invoice')]}"
+                               force_save="1"/>
+                        <field name="tipo_com"
+                               attrs="{'invisible': ['|', ('state','not in',['draft']), ('move_type', '=', 'out_invoice')]}"/>
+                        <field name="state_sin" force_save="1"
+                               attrs="{'readonly': ['|',('state','not in',['draft','posted']),('move_type', '=', 'out_invoice')]}"/>
+                        <field name="note_credit_debit" force_save="1"/>
+                    </group>
+                </div>
+            </xpath>
+            <xpath expr="//group[@class='oe_subtotal_footer oe_right']" position="inside">
+                <field name="amount_imp" class="oe_subtotal_footer_separator"/>
+                <field name="amount_iva"/>
+                <field name="amount_exe"/>
+                <field name="amount_des"/>
+                <field name="amount_ice_iehd"/>
+                <field name="amount_giftcard"/>
+                <field name="amount_open" class="oe_subtotal_footer_separator"/>
+            </xpath>
+            <xpath expr="//sheet//notebook" position="inside" attrs="{'invisible': [('country_code', '!=', 'BO')]}">
+                <field name="e_billing" invisible="1"/>
+                <page id="bo_edi_info" string="BO EDI Information" attrs="{'invisible': [('e_billing', '!=', True)]}">
+                    <!--<div class="container">
+                        <button name="print_report" type="object" string="Print"
+                                class="btn-secondary"/>
+                        <button name="check_communication" type="object" string="Check Communication"
+                                class="btn-primary"/>
+                        <button name="send_invoice_paquete" type="object" string="Enviar Paquete"
+                                class="btn-secondary"/>
+                        <button name="confirm_invoice_paquete" type="object" string="Confirmar Paquete"
+                                class="btn-secondary"/>
+                    </div>-->
+                    <group>
+                        <group string="SIN Codes">
+                            <field name="dosage_id"/>
+                            <field name="l10n_bo_cufd" invisible="1"/>
+                            <field name="l10n_bo_cuf"/>
+                            <field name="cafc_log_id" readonly="1" force_save="1"/>
+                            <field name="l10n_bo_emission_type"/>
+                            <field name="incident_id"/>
+                            <field name="l10n_bo_type_doc"/>
+                            <field name="l10n_bo_xml_filename" invisible="1"/>
+                            <field name="l10n_bo_xml" readonly="1" filename="l10n_bo_xml_filename"/>
+                            <field name="l10n_bo_gzip_filename" invisible="1"/>
+                            <field name="l10n_bo_gzip" readonly="1" filename="l10n_bo_gzip_filename"/>
+                            <field name="l10n_bo_url" readonly="1" widget="url"/>
+                            <field name="l10n_bo_code_receipt" readonly="1"/>
+                            <field name="l10n_bo_payment_method"/>
+                            <field name="l10n_bo_card"/>
+                        </group>
+                        <group string="Branch Office">
+                            <field name="l10n_bo_branch_office"/>
+                            <field name="l10n_bo_selling_point"/>
+                        </group>
+                        <group string="Null Reason">
+                            <field name="l10n_bo_null_reason"/>
+                        </group>
+                    </group>
+                </page>
+
+                <page id="bo_edi_info" string="BO Information" attrs="{'invisible': [('e_billing', '!=', False)]}">
+                    <form string="BO Dosage Set">
+                        <sheet>
+                            <group>
+                                <field name="inv_type" invisible="1"/>
+                                <group string="Dosages" attrs="{'invisible':[('inv_type', '=', True)]}">
+                                    <field name="dosage_id"/>
+                                </group>
+                                <group string="Invoice Dosage Data">
+                                    <field name="auth_number" attrs="{'readonly':[('inv_type', '=', False)]}"
+                                           context="{'search_by_code': True}"/>
+                                    <field name="control_code" attrs="{'readonly':[('inv_type', '=', False)]}"
+                                           context="{'search_by_code': True}"/>
+                                    <field name="l10n_bo_invoice_number" attrs="{'readonly':[('inv_type', '=', False)]}"
+                                           context="{'search_by_code': True}"/>
+                                    <field name="dui"
+                                           attrs="{'invisible':[('inv_type', '=', False)], 'readonly':[('inv_type', '=', False)]}"
+                                           context="{'search_by_code': True}"/>
+                                </group>
+                            </group>
+                        </sheet>
+                    </form>
+                </page>
+            </xpath>
+            <!-- <xpath expr="//sheet//group" position="before">
+                <div class="card text-dark bg-light mb-3" attrs="{'invisible':[('inv_type', '=', True)]}" style="width: 50%;">
+                    <div class="card-header">Invoice Dosage</div>
+                    <div class="card-body">
+                        <form string="BO Dosage Set">
+                            <sheet>
+                                <group>
+                                    <field name="inv_type" invisible="1"/>
+                                    <group string="Dosages">
+                                        <field name="dosage_id"/>
+                                    </group>
+                                    <group string="Invoice Dosage Data">
+                                        <field name="auth_number" attrs="{'readonly':[('inv_type', '=', False)]}" context="{'search_by_code': True}"/>
+                                        <field name="control_code" attrs="{'readonly':[('inv_type', '=', False)]}" context="{'search_by_code': True}"/>
+                                        <field name="l10n_bo_invoice_number" attrs="{'readonly':[('inv_type', '=', False)]}" context="{'search_by_code': True}"/>
+                                        <field name="dui" attrs="{'invisible':[('inv_type', '=', False)], 'readonly':[('inv_type', '=', False)]}" context="{'search_by_code': True}"/>
+                                    </group>
+                                </group>
+                            </sheet>
+                        </form>
+                    </div>
+                </div>
+            </xpath> -->
+        </field>
+    </record>
+</odoo>

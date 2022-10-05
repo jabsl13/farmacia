@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <record id="branch_office_1" model="branch.office">
+            <field name="id_branch_office">0</field>
+            <field name="description">CASA MATRIZ</field>
+            <field name="name">CASA MATRIZ</field>
+            <field name="address"></field>
+        </record>
+
+        <record id="branch_office_1" model="branch.office">
+            <field name="id_branch_office">0</field>
+            <field name="description">SUCURSAL 0</field>
+            <field name="name">SUCURSAL 0</field>
+            <field name="address"></field>
+        </record>
+
+        <record id="selling_point_0" model="selling.point">
+            <field name="id_selling_point">0</field>
+            <field name="description">PUNTO DE VENTA 0</field>
+            <field name="name">PUNTO DE VENTA 0</field>
+            <field name="branch_office_id" ref="branch_office_1"></field>
+        </record>
+
+        <record id="ambience_siat_1" model="ambience.siat">
+            <field name="id_ambience">1</field>
+            <field name="description">PRODUCCION</field>
+            <field name="name">PRODUCCION</field>
+        </record>
+        <record id="ambience_siat_2" model="ambience.siat">
+            <field name="id_ambience">2</field>
+            <field name="description">PRUEBAS-PILOTO</field>
+            <field name="name">PRUEBAS-PILOTO</field>
+        </record>
+
+        <record id="modalities_siat_1" model="modalities.siat">
+            <field name="id_modality">1</field>
+            <field name="description">ELECTRÓNICA</field>
+            <field name="name">ELECTRÓNICA</field>
+        </record>
+        <record id="modalities_siat_2" model="modalities.siat">
+            <field name="id_modality">2</field>
+            <field name="description">COMPUTARIZADA</field>
+            <field name="name">COMPUTARIZADA</field>
+        </record>
+        <record id="modalities_siat_3" model="modalities.siat">
+            <field name="id_modality">3</field>
+            <field name="description">PORTAL WEB EN LINEA</field>
+            <field name="name">PORTAL WEB EN LINEA</field>
+        </record>
+
+        <record id="seq_invoice_incident" model="ir.sequence">
+            <field name="name">Incident Invoice</field>
+            <field name="code">invoice.incident</field>
+            <field name="prefix">IN</field>
+            <field name="padding">5</field>
+            <field name="company_id" eval="False"/>
+        </record>
+
+    </data>
+</odoo>
