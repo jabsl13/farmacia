@@ -1,9 +1,0 @@
-xlsxwriter
-xlrd
-openpyxl
-qrcode
-attrs>=19.3.0
-xmlschema==2.9.0
-signxml
-zeep
-M2Crypto
